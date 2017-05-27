@@ -1,0 +1,10 @@
+<div class="stream-title">Categories</div>
+<div class="cat-items">
+    <% site.categories.each(function(category) { %>
+    <div class="cat-item">
+        <div class="cat-item-inner">
+            <div class="cat-info"><div class="cat-name"><a href="<%= url_for(category.path) %>"><%= category.name %></a></div><span class="post-count"><%= category.posts.length %></span></div>
+        </div>
+    </div>
+    <% }); %>
+</div>

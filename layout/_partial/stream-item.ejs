@@ -1,0 +1,13 @@
+<div class="stream-item">
+    <h2 class="stream-item-title"><a href="<%- url_for(post.path) %>"><%= post.title %></a></h2>
+    <time class="stream-item-time"><%= date(post.date, 'MMM D') %></time>
+    <div class="stream-item-snipper"><%- post.excerpt %></div>
+	<div class="stream-item-meta">
+		<div class="stream-item-meta-l">In <% post.categories.each(function(category){ %>
+			<a href="<%= url_for(category.path) %>"><%= category.name %></a>
+			<% }) %></div>
+		<div class="stream-item-meta-r">
+		  <a href="<%- url_for(post.path) %>#more"> Read More » </a>
+		</div>
+	</div>
+</div>
