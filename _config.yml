@@ -19,11 +19,14 @@ GithubUrl: "https://github.com/"
 WeiBo: false
 WeiBoUrl: "http://weibo.com/"
 
-# comment
-# disqus: false
-# disqus_shortname: fanyun
-# gentie: true
-# gentie_productKey: e80a87a6469742edbbd8b8e261f80fd2
+# comment 以下评论内容配置到项目根目录的_config.yml中
+#disqus: false
+#disqus_shortname: fanyun
+#gentie: false
+#gentie_productKey: e80a87a6469742edbbd8b8e261f80fd2
+#changyan: true
+#changyan_appid: cyt2bSDmQ
+#changyan_conf: prod_324e46dfa6304f2e4f0b21dadfcc62cd
 
 
 #建站时间
