@@ -3,10 +3,8 @@
 ![预览图](https://github.com/fateplayer/hexo-theme-nonfish/blob/master/source/img/screencapture3.png "预览图")
 ## 主题介绍
 + 响应式
-+ 独立的分类、标签页面
-+ 文章归档、带缩略图的分类归档、标签归档
-+ 可控制动画效果的开关
-+ 文章列表头像显示开关
++ 独立的分类、标签、归档页面
++ 文章归档、带缩略图的分类归档、标签云
 + 代码高亮
 + 更多...
 
@@ -37,7 +35,7 @@ cd themes/nonfish
 git pull
 ```
 ### 评论
-评论支持disqus和网易云跟帖，在项目根目录的_config.yml配置即可
+评论支持disqus、网易云和畅言跟帖，在项目根目录的_config.yml配置即可
 ```
 disqus: false
 disqus_shortname: ***
