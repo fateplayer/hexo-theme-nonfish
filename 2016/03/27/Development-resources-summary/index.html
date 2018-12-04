@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  <title>开发资源总结(搬运) | 命运游侠 | 单身狗虐WORLD</title>
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/loaders.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/loading.js"></script>
+</head></html>
+<body >
+<svg style="display:none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+  <symbol id="icon-heart" viewbox="0 0 1024 1024">
+  <title>heart</title>
+  <path class="path1" d="M755.188 64c-107.63 0-200.258 87.554-243.164 179-42.938-91.444-135.578-179-243.216-179-148.382 0-268.808 120.44-268.808 268.832 0 301.846 304.5 380.994 512.022 679.418 196.154-296.576 511.978-387.206 511.978-679.418 0-148.392-120.43-268.832-268.812-268.832z"/>
+  </symbol>
+  <symbol id="icon-twitter" viewbox="0 0 1024 1024">
+  <title>twitter</title>
+  <path class="path1" d="M1024 226.4c-37.6 16.8-78.2 28-120.6 33 43.4-26 76.6-67.2 92.4-116.2-40.6 24-85.6 41.6-133.4 51-38.4-40.8-93-66.2-153.4-66.2-116 0-210 94-210 210 0 16.4 1.8 32.4 5.4 47.8-174.6-8.8-329.4-92.4-433-219.6-18 31-28.4 67.2-28.4 105.6 0 72.8 37 137.2 93.4 174.8-34.4-1-66.8-10.6-95.2-26.2 0 0.8 0 1.8 0 2.6 0 101.8 72.4 186.8 168.6 206-17.6 4.8-36.2 7.4-55.4 7.4-13.6 0-26.6-1.4-39.6-3.8 26.8 83.4 104.4 144.2 196.2 146-72 56.4-162.4 90-261 90-17 0-33.6-1-50.2-3 93.2 59.8 203.6 94.4 322.2 94.4 386.4 0 597.8-320.2 597.8-597.8 0-9.2-0.2-18.2-0.6-27.2 41-29.4 76.6-66.4 104.8-108.6z"/>
+  </symbol>
+  <symbol id="icon-rss" viewbox="0 0 1024 1024">
+  <title>rss</title>
+  <path class="path1" d="M136.294 750.93c-75.196 0-136.292 61.334-136.292 136.076 0 75.154 61.1 135.802 136.292 135.802 75.466 0 136.494-60.648 136.494-135.802-0.002-74.742-61.024-136.076-136.494-136.076zM0.156 347.93v196.258c127.784 0 247.958 49.972 338.458 140.512 90.384 90.318 140.282 211.036 140.282 339.3h197.122c-0.002-372.82-303.282-676.070-675.862-676.070zM0.388 0v196.356c455.782 0 826.756 371.334 826.756 827.644h196.856c0-564.47-459.254-1024-1023.612-1024z"/>
+  </symbol>
+  <symbol id="icon-github" viewbox="0 0 1024 1024">
+  <title>github</title>
+  <path class="path1" d="M512.008 12.642c-282.738 0-512.008 229.218-512.008 511.998 0 226.214 146.704 418.132 350.136 485.836 25.586 4.738 34.992-11.11 34.992-24.632 0-12.204-0.48-52.542-0.696-95.324-142.448 30.976-172.504-60.41-172.504-60.41-23.282-59.176-56.848-74.916-56.848-74.916-46.452-31.778 3.51-31.124 3.51-31.124 51.4 3.61 78.476 52.766 78.476 52.766 45.672 78.27 119.776 55.64 149.004 42.558 4.588-33.086 17.852-55.68 32.506-68.464-113.73-12.942-233.276-56.85-233.276-253.032 0-55.898 20.004-101.574 52.76-137.428-5.316-12.9-22.854-64.972 4.952-135.5 0 0 43.006-13.752 140.84 52.49 40.836-11.348 84.636-17.036 128.154-17.234 43.502 0.198 87.336 5.886 128.256 17.234 97.734-66.244 140.656-52.49 140.656-52.49 27.872 70.528 10.35 122.6 5.036 135.5 32.82 35.856 52.694 81.532 52.694 137.428 0 196.654-119.778 239.95-233.79 252.624 18.364 15.89 34.724 47.046 34.724 94.812 0 68.508-0.596 123.644-0.596 140.508 0 13.628 9.222 29.594 35.172 24.566 203.322-67.776 349.842-259.626 349.842-485.768 0-282.78-229.234-511.998-511.992-511.998z"/>
+  </symbol>
+  <symbol id="icon-weibo" viewbox="0 0 24 24">
+  <title>weibo</title>
+  <path class="path1" d="M9.040 17.196q0.281-0.455 0.147-0.924t-0.603-0.67q-0.455-0.188-0.978-0.013t-0.804 0.616q-0.295 0.455-0.174 0.917t0.576 0.676 0.998 0.033 0.837-0.636zM10.299 15.576q0.107-0.174 0.047-0.355t-0.234-0.248q-0.188-0.067-0.382 0.007t-0.288 0.248q-0.228 0.415 0.174 0.603 0.188 0.067 0.388-0.007t0.295-0.248zM12.629 17.009q-0.603 1.366-2.116 2.009t-3 0.161q-1.433-0.455-1.975-1.694t0.087-2.511q0.629-1.246 2.029-1.862t2.819-0.254q1.487 0.388 2.123 1.6t0.033 2.551zM16.808 14.866q-0.121-1.286-1.192-2.277t-2.792-1.46-3.676-0.281q-2.987 0.308-4.949 1.895t-1.775 3.542q0.121 1.286 1.192 2.277t2.792 1.46 3.676 0.281q2.987-0.308 4.949-1.895t1.775-3.542zM20.933 14.92q0 0.911-0.496 1.868t-1.46 1.835-2.257 1.574-3.027 1.112-3.623 0.415-3.683-0.449-3.221-1.246-2.297-2.022-0.871-2.672q0-1.54 0.931-3.281t2.645-3.455q2.263-2.263 4.574-3.161t3.301 0.094q0.871 0.857 0.268 2.799-0.054 0.188-0.013 0.268t0.134 0.094 0.194-0.007 0.181-0.047l0.080-0.027q1.862-0.79 3.295-0.79t2.049 0.817q0.603 0.844 0 2.384-0.027 0.174-0.060 0.268t0.060 0.167 0.161 0.1 0.228 0.080q0.763 0.241 1.379 0.629t1.071 1.092 0.455 1.56zM19.942 6.563q0.563 0.629 0.73 1.453t-0.087 1.574q-0.107 0.308-0.395 0.455t-0.596 0.054q-0.308-0.107-0.455-0.395t-0.054-0.596q0.268-0.844-0.321-1.487t-1.433-0.469q-0.321 0.067-0.603-0.107t-0.335-0.496q-0.067-0.321 0.107-0.596t0.496-0.342q0.804-0.174 1.594 0.074t1.353 0.877zM22.366 4.379q1.165 1.286 1.507 2.98t-0.181 3.234q-0.121 0.362-0.455 0.536t-0.696 0.054-0.536-0.455-0.067-0.696q0.375-1.098 0.134-2.304t-1.071-2.116q-0.83-0.924-1.982-1.279t-2.317-0.114q-0.375 0.080-0.696-0.127t-0.402-0.583 0.127-0.69 0.583-0.395q1.647-0.348 3.268 0.154t2.786 1.801z"/>
+  </symbol>
+  <symbol id="Smile" viewbox="0 0 200 200">
+  <title>Smile</title>
+  <g class="transform-group"><g transform="scale(0.1953125, 0.1953125)">
+  <path class="path1" d="M1024 512C1024 229.230208 794.769792 0 512 0 229.230208 0 0 229.230208 0 512 0 794.769792 229.230208 1024 512 1024 629.410831 1024 740.826187 984.331046 830.768465 912.686662 841.557579 904.092491 843.33693 888.379234 834.742758 877.590121 826.148587 866.801009 810.43533 865.021658 799.646219 873.615827 718.470035 938.277495 618.001779 974.048781 512 974.048781 256.817504 974.048781 49.951219 767.182496 49.951219 512 49.951219 256.817504 256.817504 49.951219 512 49.951219 767.182496 49.951219 974.048781 256.817504 974.048781 512 974.048781 599.492834 949.714859 683.336764 904.470807 755.960693 897.177109 767.668243 900.755245 783.071797 912.462793 790.365493 924.170342 797.659191 939.573897 794.081058 946.867595 782.373508 997.013826 701.880796 1024 608.898379 1024 512ZM337.170731 499.512194C371.654852 499.512194 399.609756 471.557291 399.609756 437.073171 399.609756 402.58905 371.654852 374.634146 337.170731 374.634146 302.686611 374.634146 274.731708 402.58905 274.731708 437.073171 274.731708 471.557291 302.686611 499.512194 337.170731 499.512194ZM711.804879 499.512194C746.288998 499.512194 774.243902 471.557291 774.243902 437.073171 774.243902 402.58905 746.288998 374.634146 711.804879 374.634146 677.320757 374.634146 649.365854 402.58905 649.365854 437.073171 649.365854 471.557291 677.320757 499.512194 711.804879 499.512194ZM352.788105 768.770967C396.165222 803.472661 453.151987 824.195121 524.487806 824.195121 595.823622 824.195121 652.810387 803.472661 696.187505 768.770967 722.700531 747.560546 738.882517 725.984565 746.631548 710.486505 752.800254 698.149092 747.799529 683.146916 735.462114 676.978208 723.124702 670.809502 708.122526 675.810227 701.953818 688.147642 701.03616 689.982957 698.492224 694.172969 694.165854 699.941463 686.602473 710.025971 676.927317 720.210345 664.983226 729.765617 630.311565 757.502948 584.273939 774.243902 524.487806 774.243902 464.70167 774.243902 418.664045 757.502948 383.992384 729.765617 372.048292 720.210345 362.373137 710.025971 354.809756 699.941463 350.483386 694.172969 347.93945 689.982957 347.021792 688.147642 340.853084 675.810227 325.850908 670.809502 313.513495 676.978208 301.176081 683.146916 296.175356 698.149092 302.344062 710.486505 310.093092 725.984565 326.275078 747.560546 352.788105 768.770967Z"/></g></g>
+  </symbol>
+  <symbol id="heartbeat" viewbox="0 0 200 200">
+  <title>heartbeat</title>
+  <g class="transform-group"><g transform="scale(0.1953125, 0.1953125)">
+  <path d="M731.574857 585.142857l174.299429 0q-2.852571 3.437714-5.705143 5.997714t-5.12 4.315429l-1.682286 2.267429-355.986286 342.820571q-10.313143 10.313143-25.161143 10.313143t-25.161143-10.313143l-356.571429-343.990857q-2.852571-1.170286-11.995429-11.410286l210.870857 0q12.580571 0 22.601143-7.68t12.873143-19.748571l40.009143-160.548571 108.544 381.147429q3.437714 11.410286 13.165714 18.870857t22.308571 7.460571q11.995429 0 21.723429-7.460571t13.165714-18.870857l83.456-277.138286 32.036571 64q10.313143 19.968 32.548571 19.968zM1024.146286 340.553143q0 82.870857-58.88 171.446857l-210.870857 0-63.414857-126.317714q-4.534857-9.728-14.555429-15.433143t-20.845714-4.534857q-25.746286 2.852571-32.036571 26.258286l-73.728 245.686857-111.981714-391.972571q-3.437714-11.410286-13.458286-18.870857t-22.601143-7.460571-22.308571 7.68-12.580571 19.748571l-66.267429 265.142857-241.737143 0q-58.88-88.576-58.88-171.446857 0-125.732571 72.557714-196.534857t200.557714-70.875429q35.401143 0 72.265143 12.288t68.534857 33.133714 54.564571 39.131429 43.446857 38.838857q20.553143-20.553143 43.446857-38.838857t54.564571-39.131429 68.534857-33.133714 72.265143-12.288q128 0 200.557714 70.875429t72.557714 196.534857z"/></g></g>
+  </symbol>
+  <symbol id="icon-qq" viewbox="0 0 200 200">
+  <g class="transform-group"><g transform="scale(0.1953125, 0.1953125)">
+  <path d="M793.567305 508.539178c-5.239328-28.541033-13.514805-57.033971-24.915459-84.768639l-2.39863-5.821589c11.440563-204.333782-120.813576-292.166199-257.057587-292.166199-118.466112 0-254.806313 83.887572-251.573689 291.325042l-0.860601 0.38681c-1.049912 0.460488-1.775436 0.975211-2.331092 1.564635l-0.542352 0.860601c-12.084223 28.249391-20.916379 57.1977-26.365484 86.158289-14.395872 18.937305-96.101755 133.669372-36.45119 225.76386 0 0 15.948227 17.040095 52.5611-54.917774l0.013303-0.020466c17.303085 43.862997 45.187155 80.044034 79.291904 107.927081-36.369326 8.011464-62.910818 22.760376-70.000284 40.308031-4.581342 5.658883-7.184633 11.704576-7.184633 18.021445 0 31.021527 60.20622 56.17951 134.469598 56.17951 62.821791 0 108.747773-22.184255 121.440863-47.790446 3.544733 0.137123 7.077186 0.192382 10.614755 0.192382 0.589424 0 1.152243-0.028653 1.722224-0.028653 9.901511 26.955932 65.466014 47.62774 132.74021 47.62774 74.263377 0 125.143185-30.953989 125.143185-62.009286 0-0.514723-0.128937-0.989537-0.14224-1.505283 0.013303-0.420579 0.14224-0.861624 0.14224-1.288343 0-21.404496-28.620851-40.002063-70.75753-49.490158 33.481556-27.747971 60.687174-63.825654 77.353762-107.724467 36.545334 71.722508 52.459792 54.736649 52.459792 54.736649C888.414487 643.307581 812.450375 533.420869 793.567305 508.539178M784.438391 517.886057c-30.506804 29.401634-122.398678 103.237269-275.56101 100.852966-27.103288-0.406253-53.94154-3.077082-79.752392-7.930623l-3.538593-0.678452-0.324388 3.472078c-1.810229 19.74981-2.216481 46.270836-2.521426 65.648163-0.168846 10.897188-0.304945 19.49296-0.623193 22.257933-1.057075 8.892531-4.195555 10.178827-21.363564 13.359262-2.548032 0.480954-5.353938 0.724501-8.350179 0.724501l0 0c-27.503401-0.00614-64.48978-19.846-71.884191-23.964808-5.205559-36.904515 5.794983-93.235474 9.332553-109.800755l0.50142-2.369977-2.257413-1.058099c-49.545416-23.274076-80.817654-50.331315-93.986581-63.10013l-1.098008-2.995217c4.941546-28.344558 13.149485-56.709583 24.582885-84.470857 15.71696 32.160467 93.362364 115.201765 235.808634 115.201765 143.327336 0 253.626441-54.846142 272.883017-107.671255 9.407254 24.453948 16.373922 49.423643 20.956288 74.426083L784.438391 517.886057 784.438391 517.886057zM784.438391 517.886057M793.567305 508.539178c-5.239328-28.541033-13.514805-57.033971-24.915459-84.768639l-2.39863-5.821589c11.440563-204.333782-120.813576-292.166199-257.057587-292.166199-118.466112 0-254.806313 83.887572-251.573689 291.325042l-0.860601 0.38681c-1.049912 0.460488-1.775436 0.975211-2.331092 1.564635l-0.542352 0.860601c-12.084223 28.249391-20.916379 57.1977-26.365484 86.158289-14.395872 18.937305-96.101755 133.669372-36.45119 225.76386 0 0 15.948227 17.040095 52.5611-54.917774l0.013303-0.020466c17.303085 43.862997 45.187155 80.044034 79.291904 107.927081-36.369326 8.011464-62.910818 22.760376-70.000284 40.308031-4.581342 5.658883-7.184633 11.704576-7.184633 18.021445 0 31.021527 60.20622 56.17951 134.469598 56.17951 62.821791 0 108.747773-22.184255 121.440863-47.790446 3.544733 0.137123 7.077186 0.192382 10.614755 0.192382 0.589424 0 1.152243-0.028653 1.722224-0.028653 9.901511 26.955932 65.466014 47.62774 132.74021 47.62774 74.263377 0 125.143185-30.953989 125.143185-62.009286 0-0.514723-0.128937-0.989537-0.14224-1.505283 0.013303-0.420579 0.14224-0.861624 0.14224-1.288343 0-21.404496-28.620851-40.002063-70.75753-49.490158 33.481556-27.747971 60.687174-63.825654 77.353762-107.724467 36.545334 71.722508 52.459792 54.736649 52.459792 54.736649C888.414487 643.307581 812.450375 533.420869 793.567305 508.539178L793.567305 508.539178zM784.438391 517.886057c-30.506804 29.401634-122.398678 103.237269-275.56101 100.852966-27.103288-0.406253-53.94154-3.077082-79.752392-7.930623l-3.538593-0.678452-0.324388 3.472078c-1.810229 19.74981-2.216481 46.270836-2.521426 65.648163-0.168846 10.897188-0.304945 19.49296-0.623193 22.257933-1.057075 8.892531-4.195555 10.178827-21.363564 13.359262-2.548032 0.480954-5.353938 0.724501-8.350179 0.724501l0 0c-27.503401-0.00614-64.48978-19.846-71.884191-23.964808-5.205559-36.904515 5.794983-93.235474 9.332553-109.800755l0.50142-2.369977-2.257413-1.058099c-49.545416-23.274076-80.817654-50.331315-93.986581-63.10013l-1.098008-2.995217c4.941546-28.344558 13.149485-56.709583 24.582885-84.470857 15.71696 32.160467 93.362364 115.201765 235.808634 115.201765 143.327336 0 253.626441-54.846142 272.883017-107.671255 9.407254 24.453948 16.373922 49.423643 20.956288 74.426083L784.438391 517.886057 784.438391 517.886057zM784.438391 517.886057"/></g></g>
+  </symbol>
+  </defs>
+</svg>
+
+    <div class="surface-content">
+      <div class="loader">
+  <div class="ball-scale-multiple">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<header class="site-header">
+<hgroup>
+      <h1 class="site-title">
+        <a href="http://fateplayer.com" class="logo">命运游侠</a>
+      </h1>
+      <p class="site-description">单身狗虐WORLD</p>
+</hgroup>
+    <div class="site-nav">
+      <ul class="topNav-items">
+        
+          <li class="menu-item"><a class="main-nav-link" href="/">首页</a></li>
+        
+          <li class="menu-item"><a class="main-nav-link" href="/categories">分类</a></li>
+        
+          <li class="menu-item"><a class="main-nav-link" href="/tags">标签</a></li>
+        
+          <li class="menu-item"><a class="main-nav-link" href="/archives">归档</a></li>
+        
+          <li class="menu-item"><a class="main-nav-link" href="/about">关于</a></li>
+        
+          <li class="menu-item"><a class="main-nav-link" href="/atom.xml">RSS</a></li>
+        
+      </ul>
+    </div>
+</header>
+
+      <div class="container">
+        <section class="main-content"><article id="post-Development-resources-summary" class="post-item">
+    
+    <header class="post-header">
+        
+  
+    <h2 class="post-title">
+      开发资源总结(搬运)
+    </h2>
+  
+
+        <div class="post-meta"><time datetime="2016-03-27T08:55:21.000Z" itemprop="datePublished">2016-3-27 Sunday 16:55:21</time>
+</div>
+    </header>
+    
+    <!-- <div class="post-excerpt">
+        
+    </div> -->
+    <div class="grap">
+        <h2 id="Web-前端"><a href="#Web-前端" class="headerlink" title="Web 前端"></a>Web 前端</h2><p>  <b>Javascript</b></p>
+<ul>
+<li><a href="https://github.com/adambom/parallel.js" target="_blank" rel="noopener">parallel.js</a>: 前后端通用的一个并行库</li>
+<li><a href="https://github.com/madrobby/zepto" target="_blank" rel="noopener">zepto</a>: 用于现代浏览器的兼容 jQuery 的库</li>
+<li><a href="https://github.com/totorojs/totoro" target="_blank" rel="noopener">totoro</a>: 稳定的跨浏览器测试工具</li>
+<li><a href="https://github.com/Zhouzi/TheaterJS" target="_blank" rel="noopener">TheaterJS</a>: 一个用于模拟人输入状态的 JS 库</li>
+<li><a href="https://github.com/markdalgleish/stellar.js" target="_blank" rel="noopener">stellar.js</a>: 前端用于实现异步滚动效果的库，现已不再维护</li>
+<li><a href="https://github.com/Prinzhorn/skrollr" target="_blank" rel="noopener">skrollr</a>: 另一款实现一步滚动的开源库，使用人数众多，可实现各种狂拽酷炫掉渣天的前端效果，<a href="http://prinzhorn.github.io/skrollr/" target="_blank" rel="noopener">看真相</a></li>
+<li><a href="https://github.com/nolimits4web/Framework7" target="_blank" rel="noopener">Framework7</a>: 前端框架，是开发人员可以基于 web 技术构建 IOS7 程序</li>
+<li><a href="https://github.com/JexCheng/regulex" target="_blank" rel="noopener">regulex</a>: 用于生成 正则表达式 的可视化流程图</li>
+<li><a href="https://github.com/markdown-it/markdown-it" target="_blank" rel="noopener">markdown-it</a>: 新型 Markdown 解析器，快速，支持插件</li>
+<li><a href="https://github.com/sindresorhus/multiline" target="_blank" rel="noopener">multiline</a>: 用于 Javascript 中的多行文本，类似于 Ruby 的 HERE Doc</li>
+<li><a href="https://github.com/sindresorhus/screenfull.js" target="_blank" rel="noopener">screenfull.js</a>: 全屏插件，支持各大浏览器</li>
+<li><a href="https://github.com/olivernn/lunr.js" target="_blank" rel="noopener">lunr.js</a>: 类似于 Solr, 但是用于浏览器上的全文搜索引擎，可以为 JSON 创建索引，离线也可以使用</li>
+<li><a href="https://github.com/jeresig/jquery.hotkeys" target="_blank" rel="noopener">jquery.hotkeys</a>: jQuery 插件，用于绑定热键</li>
+<li><a href="https://github.com/breach/breach_core" target="_blank" rel="noopener">breach_core</a>: Javascript 编写的 Browser (浏览器)</li>
+<li><a href="https://github.com/zmmbreeze/octocard" target="_blank" rel="noopener">octocard</a>: 用于生成 Github 信息卡片的库</li>
+<li><a href="https://github.com/lepture/github-cards" target="_blank" rel="noopener">github-cards</a>: 用于生成 Github 信息卡片的库</li>
+<li><a href="https://github.com/openexchangerates/money.js" target="_blank" rel="noopener">money.js</a>: 轻量级货币转换库，web 和 node 皆可用</li>
+<li><a href="https://github.com/openexchangerates/accounting.js" target="_blank" rel="noopener">accounting.js</a>: 轻量级的数字、货币转换库</li>
+<li><a href="https://github.com/mgechev/javascript-algorithms" target="_blank" rel="noopener">javascript-algorithms</a>: Javascript 实现的各种算法集合</li>
+<li><a href="https://github.com/dtao/lazy.js" target="_blank" rel="noopener">lazy.js</a>: 类似于 underscore, 但是会延迟执行，某些场景下，性能会有很大的提升</li>
+<li><a href="https://github.com/seajs/seajs" target="_blank" rel="noopener">seajs</a>: 前端模块加载器，解决模块化、依赖等问题</li>
+<li><a href="https://github.com/davist11/jQuery-One-Page-Nav" target="_blank" rel="noopener">jQuery-One-Page-Nav</a>: 单页应用中一个用于处理导航栏的库</li>
+<li><a href="https://github.com/js-js/js.js" target="_blank" rel="noopener">js.js</a>: Javascript 实现的 javascript JIT</li>
+<li><a href="https://github.com/jquery/jquery-ui" target="_blank" rel="noopener">jquery-ui</a>: jQuery 团队开发的 UI 相关的前端库，功能强大</li>
+<li><a href="https://github.com/tastejs/todomvc" target="_blank" rel="noopener">todomvc</a>: 分别基于 AngularJS/EmberJS/Backbone等实现的 TODO List, 帮助开发者选择前端 MVC 库</li>
+<li><a href="https://github.com/mozilla/localForage" target="_blank" rel="noopener">localForage</a>: Mozilla 出品，用于离线存储，基于IndexedDB, WebSQL 或者 localStorage, 提供一致的接口</li>
+<li><a href="https://github.com/Wolfy87/EventEmitter" target="_blank" rel="noopener">EventEmitter</a>: 浏览器版的 EventEmitter</li>
+<li><a href="https://github.com/marioizquierdo/jquery.serializeJSON" target="_blank" rel="noopener">jquery.serializeJSON</a>: jQuery 插件，用于将 form 表单序列化成 JSON 数据</li>
+<li><a href="https://github.com/knockout/knockout" target="_blank" rel="noopener">knockout</a>: 前端 MVVM 框架，用于开发富前端应用</li>
+<li><a href="https://github.com/knsv/mermaid" target="_blank" rel="noopener">mermaid</a>: 可以根据文本生成流程图，类似于 Markdown 的语法</li>
+<li><a href="https://github.com/bramp/js-sequence-diagrams" target="_blank" rel="noopener">js-sequence-diagrams</a>: 另一款可以根据文本生成流程图的库，类似于 Markdown 的语法</li>
+<li><a href="https://github.com/facebook/flow" target="_blank" rel="noopener">flow</a>: 一个用来检测 Javascript 语法错误的库， Facebook 出品</li>
+<li><a href="https://github.com/jaukia/zoomooz" target="_blank" rel="noopener">zoomooz</a>: jQuery 插件，用来处理浏览器缩放</li>
+<li><a href="https://github.com/fancyapps/fancyBox" target="_blank" rel="noopener">fancyBox</a>: 一个用于放大缩小图片、Web 内容或者多媒体元素的库，优雅大方</li>
+<li><a href="https://github.com/lhorie/mithril.js" target="_blank" rel="noopener">mithril.js</a>: 轻量型前端 MVC 框架，部分使用场景下性能优于 Angular.js 和 React</li>
+<li><a href="https://github.com/jashkenas/backbone" target="_blank" rel="noopener">backbone</a>: 强大的前端 MVC 库，鼻祖级前端库，最初为了配合 Rails 来模块化前端应用，兼容性良好 (兼容到 IE6)，插件丰富，性能良好</li>
+<li><a href="https://github.com/jasny/jquery.smartbanner" target="_blank" rel="noopener">jquery.smartbanner</a>: <a href="http://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html" target="_blank" rel="noopener">smartbanner</a> 是从 IOS6 开始支持的一个新特性, 这个插件提供了对早期 IOS4/5 和 Android 的支持</li>
+<li><a href="https://github.com/flesler/jquery.scrollTo" target="_blank" rel="noopener">jquery.scrollTo</a>: 在页面上以一个元素为起始以动画的方式移动(ScrollTo)到另一个元素， 支持回退等</li>
+<li><a href="https://github.com/vitch/jScrollPane" target="_blank" rel="noopener">jScrollPane</a>: 自定义的滚动条，让所有浏览器都显示一样的滚动条</li>
+<li><a href="https://github.com/peachananr/onepage-scroll" target="_blank" rel="noopener">onepage-scroll</a>: 提供类似于 iPhone6 展示页类似的效果，适用于单页应用，兼容到 IE8</li>
+<li><a href="https://github.com/sakabako/scrollMonitor" target="_blank" rel="noopener">scrollMonitor</a>: 前端插件用来监控元素的滚动事件(进入、退出等)，性能很好</li>
+<li><a href="https://github.com/janpaepke/ScrollMagic" target="_blank" rel="noopener">ScrollMagic</a>: 神奇的滚动交互效果插件，可以在滚动的过程中设置各种各样的动态效果</li>
+<li><a href="https://github.com/paulirish/infinite-scroll" target="_blank" rel="noopener">infinite-scroll</a>: 滚动加载，滚动到最下到自动加载， Paul Irish 大神之作</li>
+<li><a href="https://github.com/LeaVerou/animatable" target="_blank" rel="noopener">animatable</a>: 仅仅依靠 border-width 和 background-position 实现的各种动态效果，<a href="http://leaverou.github.io/animatable/" target="_blank" rel="noopener">看真相</a></li>
+<li><a href="https://github.com/terrymun/Fluidbox" target="_blank" rel="noopener">Fluidbox</a>: 页面上内嵌图片的放大缩小效果，类似于 <a href="http://medium.com/" target="_blank" rel="noopener">Medium</a> 中的效果</li>
+<li><a href="https://github.com/jzaefferer/jquery-validation" target="_blank" rel="noopener">jquery-validation</a>: jQuery 的一个插件，用于校验 Form 表单</li>
+<li><a href="https://github.com/dfcb/BigVideo.js" target="_blank" rel="noopener">BigVideo.js</a>: jQuery 的一个插件, 用于实现大背景(视频、图片)效果</li>
+<li><a href="https://github.com/kripken/emscripten" target="_blank" rel="noopener">emscripten</a>: 一款基于 LLVM, 可以将 C/C++ 转换成 Javascript 的工具，使得 Javascript 可以近乎 Native 的速度</li>
+<li><a href="https://github.com/kazuhikoarase/qrcode-generator" target="_blank" rel="noopener">qrcode-generator</a>: 各种语言的二维码生成工具</li>
+<li><a href="https://github.com/matthewhudson/device.js" target="_blank" rel="noopener">device.js</a>: 一个可以检测设备类型的工具，可以让我们根据不同的设备来为其定制响应的 Javascript 和 CSS</li>
+<li><a href="https://github.com/jeromeetienne/jquery-qrcode" target="_blank" rel="noopener">jquery-qrcode</a>: jQuery 插件，用来生成二维码</li>
+<li><a href="https://github.com/GBKS/Wookmark-jQuery" target="_blank" rel="noopener">Wookmark-jQuery</a>: jQuery 的一个插件，可以用来实现瀑布流的效果</li>
+<li><a href="https://github.com/metafizzy/isotope" target="_blank" rel="noopener">isotope</a>: 可以用来过滤、排列布局，实现美观的动态布局切换效果，<a href="http://isotope.metafizzy.co/" target="_blank" rel="noopener">Demo</a></li>
+<li><a href="https://github.com/aFarkas/lazysizes" target="_blank" rel="noopener">lazysizes</a>: 功能强大的图片延迟加载工具，可以首先加载一个低质量的图片，然后再加载高质量的图片</li>
+<li><a href="https://github.com/kimmobrunfeldt/progressbar.js" target="_blank" rel="noopener">progressbar.js</a>: 简洁美观的进度条，扁平化</li>
+<li><a href="https://github.com/pigshell/pigshell" target="_blank" rel="noopener">pigshell</a>: 一个由 Javascript 实现的Shell, 将互联网当做一个大的文件系统, 通过 cd/ls/cat…..等命令, 可以访问 Facebook<br>/Twitter/Google Drive 等网络服务</li>
+<li><a href="https://github.com/bgrins/spectrum" target="_blank" rel="noopener">spectrum</a>: Js实现的颜色选择器 (Colorpicker)</li>
+<li><a href="https://github.com/hilios/jQuery.countdown" target="_blank" rel="noopener">jQuery.countdown</a>: jQuery 倒计时插件</li>
+<li><a href="https://github.com/summernote/summernote" target="_blank" rel="noopener">summernote</a>: WYSIWYG 富文本编辑器</li>
+<li><a href="https://github.com/LeaVerou/awesomplete" target="_blank" rel="noopener">awesomplete</a>: 非常轻型的一个自动补全 JS 库, 没有任何依赖, 配置简单, 美观</li>
+<li><a href="https://github.com/abpetkov/switchery" target="_blank" rel="noopener">switchery</a>: IOS 7 上 Switch 的 JS 实现, 支持 IE8 及以上浏览器</li>
+<li><a href="https://github.com/basecamp/trix" target="_blank" rel="noopener">trix</a>: Basecamp 公司出品的富文本编辑器，简洁小巧<br><b>Polyfills</b></li>
+<li><a href="https://github.com/scottjehl/picturefill" target="_blank" rel="noopener">picturefill</a>: 响应式的图片 <picture> polyfill, 支持srcset, sizes等</picture></li>
+<li><a href="https://github.com/jamesallardice/Placeholders.js" target="_blank" rel="noopener">Placeholders.js</a>: 为不支持的 HTML5 的浏览器提供 Placeholder 支持</li>
+<li><a href="https://github.com/LeaVerou/prefixfree" target="_blank" rel="noopener">prefixfree</a>: 自动为 CSS 添加 Vender Prefix，把你从不停添加浏览器前缀的噩梦中解放出来</li>
+<li><a href="https://github.com/browserstate/history.js" target="_blank" rel="noopener">history.js</a>: History 接口的功能实现</li>
+<li><a href="https://github.com/aFarkas/html5shiv" target="_blank" rel="noopener">html5shiv</a>: 为 IE 等老旧浏览器添加 HTML5 标签支持</li>
+<li><a href="https://github.com/paulmillr/es6-shim" target="_blank" rel="noopener">es6-shim</a>: 为浏览器添加 ES6 支持</li>
+<li><a href="https://github.com/es-shims/es5-shim" target="_blank" rel="noopener">es5-shim</a>: 为浏览器添加 ES5 支持</li>
+<li><a href="https://github.com/scottjehl/Respond" target="_blank" rel="noopener">Respond</a>: 为IE浏览器添加 media query 支持</li>
+<li><a href="https://github.com/bestiejs/json3" target="_blank" rel="noopener">json3</a>: 为旧浏览器添加 JSON 支持<br><b>HTML5 相关</b></li>
+<li><a href="https://github.com/branding-fe/sensor" target="_blank" rel="noopener">sensor.js</a>: 在智能移动设备浏览器上，通过HTML5的api使用移动设备的功能。定位、运动、倾斜等</li>
+<li><a href="https://github.com/maciejczyzewski/hyhyhy" target="_blank" rel="noopener">hyhyhy</a>: 用于创建 基于 HTML5 的 演示文稿</li>
+<li><a href="https://github.com/brutaldesign/swipebox" target="_blank" rel="noopener">swipebox</a>: jQuery 插件，用于处理移动端的触摸事件</li>
+<li><a href="https://github.com/mailru/FileAPI" target="_blank" rel="noopener">FileAPI</a>: 前端用户处理文件（拖放、多文件上传等）</li>
+<li><a href="https://github.com/RubaXa/Sortable" target="_blank" rel="noopener">Sortable</a>: 现代浏览器上用于实现元素拖拽排序的功能，支持 Meteor, AngularJS, React，不依赖 jQuery</li>
+<li><a href="https://github.com/nolimits4web/Swiper" target="_blank" rel="noopener">Swiper</a>: 用于实现浏览器上的滑动切换效果，支持硬件加速</li>
+<li><a href="https://github.com/liabru/matter-js" target="_blank" rel="noopener">matter-js</a>: 2D 物理效果引擎，碰撞、弹跳等</li>
+<li><a href="https://github.com/senchalabs/jQTouch" target="_blank" rel="noopener">jQTouch</a>: 用于辅助创建手机端的 Web 应用，支持主题、Zepto.js 等</li>
+<li><a href="https://github.com/daniel-lundin/snabbt.js" target="_blank" rel="noopener">snabbt.js</a>: 一个利用 Javascript 和 CSS transform 的 animation 库</li>
+<li><a href="https://github.com/masayuki0812/c3" target="_blank" rel="noopener">c3</a>: 基于 D3 的图表库</li>
+<li><a href="https://github.com/ecomfe/echarts" target="_blank" rel="noopener">echarts</a>: 企业级图表库，百度开发</li>
+<li><a href="https://github.com/wagerfield/parallax" target="_blank" rel="noopener">parallax.js</a>: 一个用于响应智能手机 orientation 的库</li>
+<li><a href="https://github.com/benbarnett/jQuery-Animate-Enhanced" target="_blank" rel="noopener">jQuery-Animate-Enhanced</a>: jQuery 动画库的一个增强，用于现代浏览器</li>
+<li><a href="https://github.com/Voog/wysihtml" target="_blank" rel="noopener">wysihtml</a>: 富文本编辑器，适用于现代浏览器</li>
+<li><a href="https://github.com/pornel/slip" target="_blank" rel="noopener">slip</a>: 一个通过滑动或者拖拽来操控列表的库</li>
+<li><a href="https://github.com/outpunk/evil-icons" target="_blank" rel="noopener">evil-icons</a>: 一个矢量图库，提供 Ruby/Node 等支持</li>
+<li><a href="https://github.com/dimsemenov/PhotoSwipe" target="_blank" rel="noopener">PhotoSwipe</a>: JS 的一个图片展示库</li>
+<li><a href="https://github.com/zzarcon/focusable" target="_blank" rel="noopener">focusable</a>: 是页面上一个元素高亮的库，<a href="http://zzarcon.github.io/focusable/" target="_blank" rel="noopener">有图有真相</a></li>
+<li><a href="https://github.com/paulrouget/firefox.html" target="_blank" rel="noopener">firefox.html</a>: Firefox 在浏览器端的实现 —— HTML 版的 Firefox</li>
+<li><a href="https://github.com/jquery/jquery-mobile" target="_blank" rel="noopener">jquery-mobile</a>: jQuery 团队开发的用于辅助手机端 web app 开发的库，基于 HTML5</li>
+<li><a href="https://github.com/mcasimir/mobile-angular-ui" target="_blank" rel="noopener">mobile-angular-ui</a>: 基于angularjs和bootstarp的web app开发框架</li>
+<li><a href="https://github.com/taye/interact.js" target="_blank" rel="noopener">interact.js</a>: 一个适用于现代浏览器的，用于处理 手势、拖放、缩放等的库</li>
+<li><a href="https://github.com/facebook/rebound-js" target="_blank" rel="noopener">rebound-js</a>: 实现部分物理效果，Facebook 出品</li>
+<li><a href="https://github.com/addyosmani/basket.js" target="_blank" rel="noopener">basket.js</a>: 基于 LocalStorage 的资源加载器，可以用来缓存 script 和 css, 手机端使用速度快于浏览器直接缓存</li>
+<li><a href="https://github.com/cubiq/iscroll" target="_blank" rel="noopener">iscroll</a>: 高性能的滚动(scroll)处理库，功能强大，支持各种事件，不依赖任何的库，且插件丰富, 大众点评的手机端列表滚动就是用这个库处理的</li>
+<li><a href="https://github.com/mozilla/metrics-graphics" target="_blank" rel="noopener">metrics-graphics</a>: 基于 D3 的图表库，简洁、高效，Mozilla 出品</li>
+<li><a href="https://github.com/paypal/accessible-html5-video-player" target="_blank" rel="noopener">accessible-html5-video-player</a>: Paypal 出品的 Video 播放器</li>
+<li><a href="https://github.com/jxnblk/loading" target="_blank" rel="noopener">loading</a>: 几种 Loading 效果，基于 SVG</li>
+<li><a href="https://github.com/mintchaos/flippant.js" target="_blank" rel="noopener">flippant.js</a>: 一款能够漂亮的网页元素翻转效果库，代码许久不更新，不过作为源码学习还是不错的</li>
+<li><a href="https://github.com/visionmedia/move.js" target="_blank" rel="noopener">move.js</a>: 基于 CSS3 的前端动画框架</li>
+<li><a href="https://github.com/julianlloyd/scrollReveal.js" target="_blank" rel="noopener">scrollReveal.js</a>: 使元素以非常酷帅的方式进入画布 (Viewpoint)，看 Demo</li>
+<li><a href="https://github.com/Modernizr/Modernizr" target="_blank" rel="noopener">Modernizr</a>: 一个用来检测 HTML5 和 CSS3 支持情况的库</li>
+<li><a href="https://github.com/zurb/foundation" target="_blank" rel="noopener">foundation</a>: 另一款前端模版框架，类似于 Bootstrap</li>
+<li><a href="https://github.com/designmodo/Flat-UI" target="_blank" rel="noopener">Flat-UI</a>: Bootstrap 的一款主题，简洁美观</li>
+<li><a href="https://github.com/fronteed/iCheck" target="_blank" rel="noopener">iCheck</a>: 一款漂亮的 Checkbox 插件</li>
+<li><a href="https://github.com/lyfeyaj/Swipe" target="_blank" rel="noopener">Swipe</a>: 非常轻量级的一个图片滑动切换效果库, 性能良好, 尤其是对手机的支持, 压缩后的大小约 5kb</li>
+<li><a href="https://github.com/kenwheeler/slick" target="_blank" rel="noopener">slick</a>: 功能异常强大的一个图片滑动切换效果库</li>
+<li><a href="https://github.com/t4t5/SocialButtons" target="_blank" rel="noopener">SocialButtons</a>: 漂亮的社交按钮</li>
+<li><a href="https://github.com/t4t5/sweetalert" target="_blank" rel="noopener">sweetalert</a>: 一个非常美观的用于替换浏览器默认 alert 的库</li>
+<li><a href="https://github.com/web-animations/web-animations-js" target="_blank" rel="noopener">web-animations-js</a>: Javascript 实现的 Web Animation API</li>
+<li><a href="https://github.com/maxwellito/vivus" target="_blank" rel="noopener">vivus</a>: 可以动态描绘 SVG 的 JS 库, 支持多种动画</li>
+<li><a href="https://github.com/Selz/plyr" target="_blank" rel="noopener">plyr</a>: 轻量, 小巧, 美观的 HTML5 视频播放器</li>
+<li><a href="https://github.com/sbstjn/timesheet.js" target="_blank" rel="noopener">timesheet.js</a>: 基于 HTML5 &amp; CSS3 时间表</li>
+<li><a href="https://github.com/Mango/slideout" target="_blank" rel="noopener">slideout</a>: 一个非常美观的侧滑菜单<br><b>AngularJS</b></li>
+<li><a href="https://github.com/passy/angular-masonry" target="_blank" rel="noopener">angular-masonry</a>: Masonry 的 AngularJS 插件，用于瀑布流</li>
+<li><a href="https://github.com/Textalk/angular-schema-form" target="_blank" rel="noopener">angular-schema-form</a>: 根据 JSON 生成响应的 Form 表单</li>
+<li><a href="https://github.com/mgonto/restangular" target="_blank" rel="noopener">restangular</a>: Angular 中用来处理 RESTful API 的插件，可替代 $resource</li>
+<li><a href="https://github.com/driftyco/ng-cordova" target="_blank" rel="noopener">ng-cordova</a>: Cordova 常用组件的 Angular 版本</li>
+<li><a href="https://github.com/angular-translate/angular-translate" target="_blank" rel="noopener">angular-translate</a>: Angular 的国际化 (I18n)</li>
+<li><a href="https://github.com/rev087/ng-inspector" target="_blank" rel="noopener">ng-inspector</a>: Chrome 插件，用于调试 Angular</li>
+<li><a href="https://github.com/mgechev/angularjs-style-guide" target="_blank" rel="noopener">angularjs-style-guide</a>: AngularJS 代码风格</li>
+<li><a href="https://github.com/davidchang/ngReact" target="_blank" rel="noopener">ngReact</a>: React 的 Angular 插件，可以在 Angular 中使用 React Components</li>
+<li><a href="https://github.com/angular/material" target="_blank" rel="noopener">material</a>: Google Material Design 效果的 Angular 实现</li>
+<li><a href="https://github.com/grevory/angular-local-storage" target="_blank" rel="noopener">angular-local-storage</a>: Angular 插件, 提供了对 localStorage 的友好支持, 并对不支持的浏览器使用 cookie 优雅降级</li>
+<li><a href="https://github.com/a8m/angular-filter" target="_blank" rel="noopener">angular-filter</a>: 一组有用的 Angular Filters</li>
+<li><a href="https://github.com/Pasvaz/bindonce" target="_blank" rel="noopener">bindonce</a>: Angular 插件, 用于减少 Watcher 的数量, 提升性能<br><b>React</b></li>
+<li><a href="https://github.com/facebook/react" target="_blank" rel="noopener">react</a>: React 框架源代码</li>
+<li><a href="https://github.com/facebook/react-native" target="_blank" rel="noopener">react-native</a>: Facebook 出品的使用 React 开发 IOS 原生应用的框架</li>
+<li><a href="https://github.com/gaearon/react-hot-loader" target="_blank" rel="noopener">react-hot-loader</a>: 实时调整 React 组件效果</li>
+<li><a href="https://github.com/ericclemmons/grunt-react" target="_blank" rel="noopener">grunt-react</a>: React 的 Grunt 组件, 用于将 JSX 编译成 JS</li>
+<li><a href="https://github.com/JedWatson/touchstonejs" target="_blank" rel="noopener">touchstonejs</a>: 基于 React 的手机应用前端框架</li>
+<li><a href="https://github.com/pheuter/essential-react" target="_blank" rel="noopener">essential-react</a>: 基于 React, ES6, React-Router的一个应用脚手架</li>
+<li><a href="https://github.com/rackt/react-router" target="_blank" rel="noopener">react-router</a>: React 路由解决方案<br><b>CSS</b></li>
+<li><a href="https://github.com/IanLunn/Hover" target="_blank" rel="noopener">Hover</a>: 基于 CSS3 的各种 鼠标悬停(hover)特效, <a href="http://ianlunn.github.io/Hover/" target="_blank" rel="noopener">点击查看效果</a></li>
+<li><a href="https://github.com/necolas/normalize.css" target="_blank" rel="noopener">normalize.css</a>: 一个用于重置浏览器内置样式的库</li>
+<li><a href="https://github.com/dhg/Skeleton" target="_blank" rel="noopener">Skeleton</a>: 一个 CSS 相关的库，用于构建对手机友好的网站</li>
+<li><a href="https://github.com/yahoo/pure" target="_blank" rel="noopener">pure</a>: Yahoo 出品的前端样式框架, 支持响应式</li>
+<li><a href="https://github.com/dogfalo/materialize/" target="_blank" rel="noopener">materialize</a>: 基于谷歌 Material Design 的响应式 CSS 框架</li>
+<li><a href="https://github.com/olton/Metro-UI-CSS" target="_blank" rel="noopener">Metro UI</a>: 一个 Metro 风格的前端框架<br><b>ICON</b></li>
+<li><a href="https://github.com/saeedalipoor/icono" target="_blank" rel="noopener">icono</a>: 一款用纯 CSS 实现的图标库</li>
+<li><a href="https://github.com/google/material-design-icons" target="_blank" rel="noopener">material-design-icons</a>: Google 为 Material Design 出品的 ICON</li>
+</ul>
+<h2 id="Web-后端"><a href="#Web-后端" class="headerlink" title="Web 后端"></a>Web 后端</h2><p><b>Ruby</b></p>
+<ul>
+<li><a href="https://github.com/ruby/ruby" target="_blank" rel="noopener">ruby</a>: Ruby 源代码</li>
+<li><a href="https://github.com/balvig/spyke" target="_blank" rel="noopener">spyke</a>: 像使用 ActiveRecord 一样使用 RESTful API</li>
+<li><a href="https://github.com/twopoint718/reactive_record" target="_blank" rel="noopener">reactive_record</a>: 根据 ActiveRecord 的 数据库 Schema 来反向生成 Model</li>
+<li><a href="https://github.com/eventmachine/eventmachine" target="_blank" rel="noopener">eventmachine</a>: Ruby 中著名的事件驱动库</li>
+<li><a href="https://github.com/stympy/faker" target="_blank" rel="noopener">faker</a>: Perl 的 Data::Faker 库的一个 Ruby 实现，用于虚拟各种类型的数据</li>
+<li><a href="https://github.com/ruby-amqp/amqp" target="_blank" rel="noopener">amqp</a>: RabbitMQ 的 Ruby 客户端，基于 EventMachine</li>
+<li><a href="https://github.com/ruby-amqp/bunny" target="_blank" rel="noopener">bunny</a>: 另一个 RabbitMQ 的 Ruby 客户端</li>
+<li><a href="https://github.com/pat/thinking-sphinx" target="_blank" rel="noopener">thinking-sphinx</a>: Sphinx 全文搜索的 ActiveRecord 插件</li>
+<li><a href="https://github.com/jcupitt/ruby-vips" target="_blank" rel="noopener">ruby-vips</a>: Ruby 的一款图像处理库, 基于 libvips</li>
+<li><a href="https://github.com/gocardless/statesman" target="_blank" rel="noopener">statesman</a>: Ruby 的一个状态机</li>
+<li><a href="https://github.com/aasm/aasm" target="_blank" rel="noopener">aasm</a>: 另一款 Ruby 状态机</li>
+<li><a href="https://github.com/airblade/paper_trail" target="_blank" rel="noopener">paper_trail</a>: 一款强大的用于记录 Model 变更的库，非常适合于 创建记录的版本和审查变更</li>
+<li><a href="https://github.com/celluloid/timers" target="_blank" rel="noopener">timers</a>: Ruby 的一个 Timer 库，适合于配合事件使用</li>
+<li><a href="https://github.com/gitlabhq/gitlab-shell" target="_blank" rel="noopener">gitlab-shell</a>: gitlab 的命令行工具，用于替换 gitolite</li>
+<li><a href="https://github.com/RubyMoney/money" target="_blank" rel="noopener">money</a>: Ruby 的一个数字、货币转换库</li>
+<li><a href="https://github.com/RubyMoney/money-rails" target="_blank" rel="noopener">money-rails</a>: Rails 的一个数字、货币转换库</li>
+<li><a href="https://github.com/nomad/houston" target="_blank" rel="noopener">houston</a>: APN 的 Ruby 库</li>
+<li><a href="https://github.com/scambra/devise_invitable" target="_blank" rel="noopener">devise_invitable</a>: Devise 的一个插件，用于邀请用户</li>
+<li><a href="https://github.com/mikel/mail" target="_blank" rel="noopener">mail</a>: Ruby 的处理邮件的库</li>
+<li><a href="https://github.com/tj/commander" target="_blank" rel="noopener">commander</a>: Ruby 的命令行辅助库</li>
+<li><a href="https://github.com/helios-framework/helios" target="_blank" rel="noopener">helios</a>: 一个为 IOS 提供后端支撑的库</li>
+<li><a href="https://github.com/middleman/middleman" target="_blank" rel="noopener">middleman</a>: 一个辅助制作静态网站的工具</li>
+<li><a href="https://github.com/elabs/pundit" target="_blank" rel="noopener">pundit</a>: 一个处理认证的库</li>
+<li><a href="https://github.com/elabs/refile" target="_blank" rel="noopener">refile</a>: 一个处理图片上传的库</li>
+<li><a href="https://github.com/cowbell/sharedrop" target="_blank" rel="noopener">sharedrop</a>: Airdrop 的 HTTP5 实现，基于 WebRTC</li>
+<li><a href="https://github.com/titanous/mailman" target="_blank" rel="noopener">mailman</a>: 处理接收邮件的库</li>
+<li><a href="https://github.com/mruby/mruby" target="_blank" rel="noopener">mruby</a>: mini-ruby (light-weight ruby) 轻量级 Ruby 源代码</li>
+<li><a href="https://github.com/utgarda/sidekiq-status" target="_blank" rel="noopener">sidekiq-status</a>: Sidekiq 插件，用来监控任务状态</li>
+<li><a href="https://github.com/dockyard/postgres_ext" target="_blank" rel="noopener">postgres_ext</a>: ActiveRecord 的插件，扩展了 PostgreSQL 相关的一些功能</li>
+<li><a href="https://github.com/prawnpdf/prawn" target="_blank" rel="noopener">prawn</a>: Ruby 的 PDF 编辑工具</li>
+<li><a href="https://github.com/rails/spring" target="_blank" rel="noopener">spring</a>: Rails 的加载器，可以加速 Rails 开发</li>
+<li><a href="https://github.com/rails/rails" target="_blank" rel="noopener">rails</a>: Rails 源代码</li>
+<li><a href="https://github.com/xinminlabs/newrelic-grape" target="_blank" rel="noopener">newrelic-grape</a>: Grape 的 Newrelic 插件</li>
+<li><a href="https://github.com/stevebartholomew/newrelic_moped" target="_blank" rel="noopener">newrelic_moped</a>: Moped 的 Newrelic 插件</li>
+<li><a href="https://github.com/kickstarter/rack-attack" target="_blank" rel="noopener">rack-attack</a>: 基于 Rack 的防攻击中间件</li>
+<li><a href="https://github.com/whitequark/rack-utf8_sanitizer" target="_blank" rel="noopener">rack-utf8_sanitizer</a>: Rack 的 UTF8 序列化中间件</li>
+<li><a href="https://github.com/junegunn/redis-stat" target="_blank" rel="noopener">redis-stat</a>: Redis 监控工具</li>
+<li><a href="https://github.com/MiniProfiler/rack-mini-profiler" target="_blank" rel="noopener">rack-mini-profiler</a>: Rack 中间件，用于分析各个性能指标，如 SQL, View渲染等</li>
+<li><a href="https://github.com/SamSaffron/memory_profiler" target="_blank" rel="noopener">memory_profiler</a>: 用于分析内存占用</li>
+<li><a href="https://github.com/tmm1/gctools" target="_blank" rel="noopener">gctools</a>: 用于分析和优化 Ruby GC，可以配合 Unicorn 使用</li>
+<li><a href="https://github.com/mileszs/wicked_pdf" target="_blank" rel="noopener">wicked_pdf</a>: Rails 插件，用于生成 PDF</li>
+<li><a href="https://github.com/steveklabnik/request_store" target="_blank" rel="noopener">request_store</a>: Rack 中间件，用于保存仅单次请求有效的的全局变量，线程安全</li>
+<li><a href="https://github.com/slim-template/slim" target="_blank" rel="noopener">slim</a>: 基于 Ruby 的前端模板引擎，类似于 Haml, 语法更简洁，据说相比于 Haml 会更快一些</li>
+<li><a href="https://github.com/colszowka/simplecov" target="_blank" rel="noopener">simplecov</a>: Ruby 测试代码的覆盖率分析</li>
+<li><a href="https://github.com/sass/sass" target="_blank" rel="noopener">sass</a>: CSS 框架，使得编写 CSS 更加容易和有趣，支持模块化、变量、运算、Mixin等</li>
+<li><a href="https://github.com/tripit/slate" target="_blank" rel="noopener">slate</a>: 静态的 API 接口文档生成工具，干净、整洁、对手持设备友好、单页应用、代码高亮</li>
+<li><a href="https://github.com/dockyard/ruby-destroyed_at" target="_blank" rel="noopener">ruby-destroyed_at</a>: ActiveRecord 扩展，支持安全删除</li>
+<li><a href="https://github.com/ricardochimal/taps" target="_blank" rel="noopener">taps</a>: 支持数据库导入导出 -&gt; 原理是，对导出目标数据库建立一个服务器提供数据接口，然后对目标导入数据库进行数据导入，依赖 Sinatra 启动数据库接口服务</li>
+<li><a href="https://github.com/kpumuk/meta-tags" target="_blank" rel="noopener">meta-tags</a>: 为 Rails 应用提供 SEO 优化支持</li>
+<li><a href="https://github.com/elasticsearch/logstash" target="_blank" rel="noopener">logstash</a>: 日志、时间管理工具</li>
+<li><a href="https://github.com/rspec/rspec-rails" target="_blank" rel="noopener">rspec-rails</a>: Rspec 的 Rails 插件</li>
+<li><a href="https://github.com/sparklemotion/nokogiri" target="_blank" rel="noopener">nokogiri</a>: 一个功能强大，性能良好的用于解析 HTML, XML 的工具，支持 XPath 和 CSS 选择器</li>
+<li><a href="https://github.com/vcr/vcr" target="_blank" rel="noopener">vcr</a>: 一个测试辅助库，纪录一组 HTTP 请求交互，并作为测试重现</li>
+<li><a href="https://github.com/thoughtbot/factory_girl" target="_blank" rel="noopener">factory_girl</a>: 一个用来准备测试数据的库</li>
+<li><a href="https://github.com/simi/mongoid_paranoia" target="_blank" rel="noopener">mongoid_paranoia</a>: Mongoid 软删除功能, 通过添加一个 destroyed_at</li>
+<li><a href="https://github.com/louismullie/treat" target="_blank" rel="noopener">treat</a>: Ruby的自然语言处理</li>
+<li><a href="https://github.com/MacGapProject/MacGap1" target="_blank" rel="noopener">MacGap1</a>: 一款工具可以将 HTML/CSS/JS 网络应用打包成 Mac App</li>
+<li><a href="https://github.com/ffi/ffi" target="_blank" rel="noopener">ffi</a>: 可以帮助 Rubyer 开发基于 C 的 ruby 库, 提供了一套接口</li>
+<li><a href="https://github.com/mloughran/api_cache" target="_blank" rel="noopener">api_cache</a>: 可以为外部接口添加缓存的工具</li>
+<li><a href="https://github.com/galetahub/ckeditor" target="_blank" rel="noopener">ckeditor</a>: Rails 的 Ckeditor 插件</li>
+<li><a href="https://github.com/mailboxer/mailboxer" target="_blank" rel="noopener">mailboxer</a>: Rails 插件, 可以发送消息/邮件</li>
+<li><a href="https://github.com/ko1/gc_tracer" target="_blank" rel="noopener">gc_tracer</a>: Ruby GC 跟踪器</li>
+<li><a href="https://github.com/huobazi/carrierwave-qiniu" target="_blank" rel="noopener">carrierwave-qiniu</a>: Carrierwave 的 七牛 插件</li>
+<li><a href="https://github.com/skyeagle/mongoid-ancestry" target="_blank" rel="noopener">mongoid-ancestry</a>: Mongoid Ancestry 实现</li>
+<li><a href="https://github.com/hexorx/countries" target="_blank" rel="noopener">countries</a>: 一个库包含全球各个国家的信息 (ISO 3166 (countries and states/subdivisions ), ISO 4217 (currency), and E.164 (phone numbers))</li>
+<li><a href="https://github.com/postmodern/chruby" target="_blank" rel="noopener">chruby</a>: 切换 Ruby 的版本 和 可以和 ruby-install 配合</li>
+<li><a href="https://github.com/postmodern/ruby-install" target="_blank" rel="noopener">ruby-install</a>: 用来安装 Ruby, JRuby, Rubinius, MagLev 或者 MRuby 环境</li>
+<li><a href="https://github.com/railsware/caphub" target="_blank" rel="noopener">caphub</a>: 基于 capistrano 的集中发布管理实例</li>
+<li><a href="https://github.com/capistrano/chruby" target="_blank" rel="noopener">chruby</a>: capistrano 的 chruby 支持</li>
+<li><a href="https://github.com/deivid-rodriguez/byebug" target="_blank" rel="noopener">byebug</a>: Ruby 2 的一个调试器</li>
+<li><a href="https://github.com/opal/opal" target="_blank" rel="noopener">opal</a>: Ruby -&gt; Javascript 代码转换工具</li>
+<li><a href="https://github.com/voltrb/volt" target="_blank" rel="noopener">volt</a>: Ruby 的 一个 Web 框架, 使用 opal 使得前后端均可以用 Ruby 编写</li>
+<li><a href="https://github.com/bear-metal/tunemygc" target="_blank" rel="noopener">tunemygc</a>: 用于分析 Ruby 的 GC, 并给出最合适的配置</li>
+<li><a href="https://github.com/grosser/parallel" target="_blank" rel="noopener">parallel</a>: Ruby 的一个并行运算库</li>
+<li><a href="https://github.com/httprb/http.rb" target="_blank" rel="noopener">http.rb</a>: Ruby 的一个 HTTP 库, 提供了链式的语法和完全的 Streaming 支持</li>
+<li><a href="https://github.com/plataformatec/has_scope" target="_blank" rel="noopener">has_scope</a>: 用于在控制器中钩子中使用Scope</li>
+<li><a href="https://github.com/github/linguist" target="_blank" rel="noopener">linguist</a>: Github 官方出品, 用于识别编程语言, 以及代码高亮</li>
+<li><a href="https://github.com/github/markup" target="_blank" rel="noopener">markup</a>: Github 官方出品, 用于解析各类 markup 文件<br><b>Python</b></li>
+<li><a href="https://github.com/django/django" target="_blank" rel="noopener">django</a>: 一个全栈式的 web 框架, 类似于 Rails</li>
+<li><a href="https://github.com/tomchristie/django-rest-framework" target="_blank" rel="noopener">django-rest-framework</a>: django 的 一个 Rest API 框架</li>
+<li><a href="https://github.com/sophron/wifiphisher" target="_blank" rel="noopener">wifiphisher</a>: WIFI 中间人钓鱼攻击工具，获取用户名密码</li>
+<li><a href="https://github.com/jonathanslenders/python-prompt-toolkit" target="_blank" rel="noopener">python-prompt-toolkit</a>: Python 的交互命令行工具，提供代码补全、高亮等</li>
+<li><a href="https://github.com/sripathikrishnan/redis-rdb-tools" target="_blank" rel="noopener">redis-rdb-tools</a>: Redis 的 dump.rdb 文件解析器，用于分析内存使用、导出 JSON 以及 比较不同 rdb 文件差异</li>
+<li><a href="https://github.com/Supervisor/supervisor" target="_blank" rel="noopener">supervisor</a>: 类UNIX下用于控制进程的一个开源库，通过配置可以监控、自动重启各种服务</li>
+<li><a href="https://github.com/yyuu/pyenv" target="_blank" rel="noopener">pyenv</a>: Python 版本管理工具，类似于 RVM</li>
+<li><a href="https://github.com/binux/pyspider" target="_blank" rel="noopener">pyspider</a>: 一个爬虫系统<br><b>Node.js</b></li>
+<li><a href="https://github.com/nwjs/nw.js" target="_blank" rel="noopener">Node-Webkit.js</a>: Node-Webkit 是基于Chromium 和 node.js的运行环境，可以用来创建桌面应用程序</li>
+<li><a href="https://github.com/request/request" target="_blank" rel="noopener">request</a>: 基于 Node.js 的用于网络请求的库，使用简单，功能强大</li>
+<li><a href="https://github.com/hapijs/hapi" target="_blank" rel="noopener">hapi</a>: 一个配置优先的 web 框架，hapijs.com</li>
+<li><a href="https://github.com/addyosmani/psi" target="_blank" rel="noopener">psi</a>: 用于分析页面速度的工具，支持命令行</li>
+<li><a href="https://github.com/gulpjs/gulp" target="_blank" rel="noopener">gulp</a>: 基于 Node.js 的流式构建系统</li>
+<li><a href="https://github.com/orchestrator/orchestrator" target="_blank" rel="noopener">orchestrator</a>: 一个可以并行执行任务和依赖的库</li>
+<li><a href="https://github.com/rwaldron/johnny-five" target="_blank" rel="noopener">johnny-five</a>: 用 Javascript 控制机器人</li>
+<li><a href="https://github.com/mozilla/popcorn-js" target="_blank" rel="noopener">popcorn-js</a>: Mozilla 的一个开源项目，允许开发者基于 HTML5 音视频的时间线添加互动元素，比如注释，字幕，甚至动画</li>
+<li><a href="https://github.com/senchalabs/connect" target="_blank" rel="noopener">connect</a>: Node 中间件支持，注：Express 4 以下依赖此库，从 4 开始支持全新的 Router，类似于 Rails Engine</li>
+<li><a href="https://github.com/Marak/faker.js" target="_blank" rel="noopener">faker.js</a>: Faker 的 Node 实现，用于生成假数据</li>
+<li><a href="https://github.com/jstrace/chart" target="_blank" rel="noopener">chart</a>: 用于终端生成 ASCII 图表</li>
+<li><a href="https://github.com/asciimoo/drawille" target="_blank" rel="noopener">drawille</a>: 用于终端生成 ASCII 图形</li>
+<li><a href="https://github.com/sindresorhus/sparkly" target="_blank" rel="noopener">sparkly</a>: spark.sh 的一个 Javascript 实现，终端生成 sparklines</li>
+<li><a href="https://github.com/node-inspector/node-inspector" target="_blank" rel="noopener">node-inspector</a>: Node 的调试神器，使用方法，用 node-debug 代替 node 启动服务，并在你想调试的地方输入debugger</li>
+<li><a href="https://github.com/NodeOS/NodeOS" target="_blank" rel="noopener">NodeOS</a>: 基于 Node 的操作系统</li>
+<li><a href="https://github.com/devongovett/pdfkit" target="_blank" rel="noopener">pdfkit</a>: Node 和 浏览器均可以使用的，用于生成 PDF 的库</li>
+<li><a href="https://github.com/sindresorhus/empty-trash" target="_blank" rel="noopener">empty-trash</a>: 清空垃圾桶</li>
+<li><a href="https://github.com/sindresorhus/trash" target="_blank" rel="noopener">trash</a>: 安全删除文件 -&gt; 将文件放入垃圾桶</li>
+<li><a href="https://github.com/squaremo/rabbit.js" target="_blank" rel="noopener">rabbit.js</a>: RabbitMQ 的 Node 客户端</li>
+<li><a href="https://github.com/tildeio/htmlbars" target="_blank" rel="noopener">htmlbars</a>: 基于 Handlebars 的一个变种，可以编写直接操作 DOM 的辅助方法</li>
+<li><a href="https://github.com/lovell/sharp" target="_blank" rel="noopener">sharp</a>: Node 的一个图像处理的库，基于 libvips</li>
+<li><a href="https://github.com/visionmedia/debug" target="_blank" rel="noopener">debug</a>: 一个用于在 console 或者 浏览器输出日志，方便与 Debug 的工具</li>
+<li><a href="https://github.com/IonicaBizau/github-contributions" target="_blank" rel="noopener">github-contributions</a>: 一个好玩的库，用于在 github 的 contribution calendar 上输出你想要的文字或者图案</li>
+<li><a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">hexo</a>: 基于 Node 的静态博客，类似于 Octopress</li>
+<li><a href="https://github.com/grmmph/GhostScroll" target="_blank" rel="noopener">GhostScroll</a>: Ghost 的一个主题</li>
+<li><a href="https://github.com/haydenbleasel/ghost-themes" target="_blank" rel="noopener">ghost-themes</a>: 多个 Ghost 主题</li>
+<li><a href="https://github.com/unconed/TermKit" target="_blank" rel="noopener">TermKit</a>: 一个基于 Chrome 和 Node 的终端应用</li>
+<li><a href="https://github.com/lrsjng/h5ai" target="_blank" rel="noopener">h5ai</a>: 配置简单，美观的 http 静态目录，支持 Nginx、Apache 等</li>
+<li><a href="https://github.com/nodeapps/http-server" target="_blank" rel="noopener">http-server</a>: Http 静态服务器，基于 Node, 配置简单</li>
+<li><a href="https://github.com/argon/node-apn" target="_blank" rel="noopener">node-apn</a>: Node 的 APN (Apple Push Notification) 模块</li>
+<li><a href="https://github.com/chaijs/chai" target="_blank" rel="noopener">chai</a>: Node 的 TDD/BDD 测试框架</li>
+<li><a href="https://github.com/iojs/io.js" target="_blank" rel="noopener">io.js</a>: Node 的一个分支，更加活跃，开发更激进，最终的目的是合并入 Node.js</li>
+<li><a href="https://github.com/facebook/immutable-js" target="_blank" rel="noopener">immutable-js</a>: 不可改变的集合, 前后端通用</li>
+<li><a href="https://github.com/tj/node-migrate" target="_blank" rel="noopener">node-migrate</a>: Node 的数据库迁移框架</li>
+<li><a href="https://github.com/NetEase/pomelo" target="_blank" rel="noopener">pomelo</a>: Node 游戏服务器框架，网易开发</li>
+<li><a href="https://github.com/yaronn/blessed-contrib" target="_blank" rel="noopener">blessed-contrib</a>: 构建终端信息板 (Dashboard) 利器</li>
+<li><a href="https://github.com/mikaelbr/node-notifier" target="_blank" rel="noopener">node-notifier</a>: Node 模块，可以发送本地通知，支持 Mac/Windows/Linux</li>
+<li><a href="https://github.com/prerender/prerender" target="_blank" rel="noopener">prerender</a>: 用于预解析网站，主要解决单页应用(angular.js ember.js backbone.js 等)的搜索引擎 SEO 支持</li>
+<li><a href="https://github.com/alongubkin/spider" target="_blank" rel="noopener">spider</a>: 一种新语言，目标是编译成 Javascript</li>
+<li><a href="https://github.com/jsdoc3/jsdoc" target="_blank" rel="noopener">jsdoc</a>: 用来生成 Javascript API 文档的库</li>
+<li><a href="https://github.com/shakyShane/browser-sync" target="_blank" rel="noopener">browser-sync</a>: 多浏览器(多设备)同步库，监控 CSS/Javascript/HTML 的变更并通知到浏览器；监控浏览器的操作，如滚动、点击等事件，同步到所有的开发设备。前端开发利器！</li>
+<li><a href="https://github.com/addyosmani/tmi" target="_blank" rel="noopener">tmi</a>: 基于 Node 的命令行工具, 用于计算网站图片的权重，以及那些图片可以进一步优化</li>
+<li><a href="https://github.com/6to5/6to5" target="_blank" rel="noopener">6to5</a>: 转换 ES6 代码为 ES5，提前使用 ES6 语法带来的各种畅快！</li>
+<li><a href="https://github.com/leizongmin/js-xss" target="_blank" rel="noopener">js-xss</a>: 根据白名单过滤HTML(防止XSS攻击)</li>
+<li><a href="https://github.com/Unitech/PM2" target="_blank" rel="noopener">PM2</a>: Node 进程管理，内置负载均衡，提供自动重启，热启动等功能，适合在生产环境下使用</li>
+<li><a href="https://github.com/rlidwka/sinopia" target="_blank" rel="noopener">sinopia</a>: 私有 NPM 服务器</li>
+<li><a href="https://github.com/chriso/validator.js" target="_blank" rel="noopener">validator.js</a>: 校验工具(url，邮箱，整数等), 内置几十种校验方法，前后端通用</li>
+<li><a href="https://github.com/node-webot/wechat" target="_blank" rel="noopener">wechat</a>: 微信公共平台消息接口服务中间件</li>
+<li><a href="https://github.com/visionmedia/superagent" target="_blank" rel="noopener">superagent</a>: 更 NB 的 Ajax 请求库，号称比 jQuery 更好用，前后端通用</li>
+<li><a href="https://github.com/cheeriojs/cheerio" target="_blank" rel="noopener">cheerio</a>: Server 端的 jQuery, 相同的 API，支持 DOM 操作等</li>
+<li><a href="https://github.com/mcavage/node-restify" target="_blank" rel="noopener">node-restify</a>: Node.js 的 REST API 框架，从 Express 中借鉴了很多，并去除了 render 等方法</li>
+<li><a href="https://github.com/tj/ejs" target="_blank" rel="noopener">ejs</a>: Node.js 的前端模板引擎, 使用 &lt;%= %&gt; 直接在 HTML中嵌入，简单易学</li>
+<li><a href="https://github.com/petkaantonov/bluebird" target="_blank" rel="noopener">Bluebird</a>: 另一款实现 Promises/A+ 的库，相比于 Q，性能卓越</li>
+<li><a href="https://github.com/postwait/node-amqp" target="_blank" rel="noopener">node-amqp</a>: RabbitMQ 的 Node 客户端</li>
+<li><a href="https://github.com/tgriesser/knex" target="_blank" rel="noopener">Knex</a>: SQL 生成器，支持 PostgreSQL, MySQL 和 SQLite3， 用于和 Bookshelf 配合使用</li>
+<li><a href="https://github.com/mranney/node_redis" target="_blank" rel="noopener">node_redis</a>: Node 的 Redis 客户端</li>
+<li><a href="https://github.com/elasticsearch/elasticsearch-js" target="_blank" rel="noopener">elasticsearch-js</a>: ElasticSearch 的 Node 客户端</li>
+<li><a href="http://passportjs.org/" target="_blank" rel="noopener">Passport</a>: Node 的认证中间件，支持 Express, 组件丰富, 支持多种认证策略，OAuth</li>
+<li><a href="https://github.com/bnoguchi/everyauth" target="_blank" rel="noopener">everyauth</a>: 认证库，支持多种策略，OAuth，支持 Express</li>
+<li><a href="https://github.com/ciaranj/node-oauth" target="_blank" rel="noopener">node-oauth</a>: Node 的 OAuth 支持</li>
+<li><a href="https://github.com/danwrong/restler" target="_blank" rel="noopener">restler</a>: 一个 Node REST 客户端</li>
+<li><a href="https://github.com/jaredhanson/oauth2orize" target="_blank" rel="noopener">oauth2orize</a>: Node 的服务端 OAuth支持</li>
+<li><a href="http://mochajs.org/" target="_blank" rel="noopener">Mocha</a>: Node 的 TDD/BDD 测试框架</li>
+<li><a href="https://github.com/remy/nodemon" target="_blank" rel="noopener">nodemon</a>: 开发时使用, 自动检测文件变更, 并重启服务</li>
+<li><a href="https://github.com/redis/hiredis-node" target="_blank" rel="noopener">hiredis-node</a>: hiredis 的 Node 模块</li>
+<li><a href="https://github.com/auth0/node-jsonwebtoken" target="_blank" rel="noopener">node-jsonwebtoken</a>: JsonWebToken 的 Node.js 实现</li>
+<li><a href="https://github.com/js2coffee/js2coffee" target="_blank" rel="noopener">js2coffee</a>: 将 Javascript 转换成 CoffeeScript 的一个工具</li>
+<li><a href="https://github.com/klei/grunt-injector" target="_blank" rel="noopener">grunt-injector</a>: Grunt 的 JS/CSS 自动注入工具, 可以自动将 JS/CSS 的引用注入到 HTML 文件中</li>
+<li><a href="https://github.com/NativeScript/NativeScript" target="_blank" rel="noopener">NativeScript</a>: 使用 Javascript 来编写 IOS / Android 以及更多平台原生软件的库</li>
+<li><a href="https://github.com/bkeepers/rosie" target="_blank" rel="noopener">rosie</a>: 用于生成 Javascript 对象, 方便测试, 类似于 factory_girl</li>
+<li><a href="https://github.com/senchalabs/jsduck" target="_blank" rel="noopener">jsduck</a>: javascript 文档生成工具</li>
+<li><a href="https://github.com/arturadib/shelljs" target="_blank" rel="noopener">shelljs</a>: shell 命令的 Node.js 封装, 支持 local 和 global 两种模式</li>
+<li><a href="https://github.com/indexzero/daemon.node" target="_blank" rel="noopener">daemon.node</a>: 以后台守护进程启动 node 应用的最小化实现, 可作为学习源码使用</li>
+<li><a href="https://github.com/chjj/blessed" target="_blank" rel="noopener">blessed</a>: Node 的命令行界面工具, 一共一组高级接口支持命令行绘图, 动画等</li>
+<li><a href="https://github.com/indutny/node-spdy" target="_blank" rel="noopener">node-spdy</a>: Node 的 SPDY 支持</li>
+<li><a href="https://github.com/laverdet/node-fibers" target="_blank" rel="noopener">node-fibers</a>: Node 的 Fiber 实现</li>
+<li><a href="https://github.com/codemix/fast.js" target="_blank" rel="noopener">fast.js</a>: 对 JS 的一些方法的重新实现, 提供更高的性能</li>
+<li><a href="https://github.com/nomiddlename/log4js-node" target="_blank" rel="noopener">log4js-node</a>: Log4js 的 Node.js 版</li>
+<li><a href="https://github.com/andrewplummer/Sugar" target="_blank" rel="noopener">Sugar</a>: Javascript 原生类型的功能扩充(Monkey Patch), 提供了各种语法糖</li>
+<li><a href="https://github.com/arturadib/shelljs" target="_blank" rel="noopener">shelljs</a>: 各种 Shell 命令的 Node 实现</li>
+<li><a href="https://github.com/meteor/meteor" target="_blank" rel="noopener">Meteor</a>: 一个基于 Node.js 的平台，用于开发实时网页和移动应用</li>
+<li><a href="https://github.com/koajs/koa" target="_blank" rel="noopener">Koa</a>: Node.js web 框架，Express 原班人马打造，推崇极简，通过 generator 实现异步控制<br><b>Express</b></li>
+<li><a href="https://github.com/simov/express-admin" target="_blank" rel="noopener">express-admin</a>: Express 的后端，支持(MySQL, MariaDB, SQLite, PostgreSQL)</li>
+<li><a href="https://github.com/simov/grant" target="_blank" rel="noopener">grant</a>: Express 认证中间件(middleware)<br><b>Erlang</b></li>
+<li><a href="https://github.com/yrashk/kerl" target="_blank" rel="noopener">kerl</a>: 版本管理器, 用于管理 Erlang/OTP 实例, 类似于 RVM</li>
+<li><a href="https://github.com/rabbitmq/rabbitmq-server" target="_blank" rel="noopener">rabbitmq-server</a>: RabbitMQ 消息队列 源码</li>
+<li><a href="https://github.com/rabbitmq/rabbitmq-tutorials" target="_blank" rel="noopener">rabbitmq-tutorials</a>: RabbitMQ 教程</li>
+<li><a href="https://github.com/processone/ejabberd" target="_blank" rel="noopener">ejabberd</a>: XMPP 协议的开源实现，用于及时聊天软件，Whatsapp 的聊天核心就是这个软件</li>
+<li><a href="https://github.com/elixir-lang/elixir" target="_blank" rel="noopener">elixir</a>: 基于 Erlang VM 的一个语言，语法类似于 Ruby</li>
+<li><a href="https://github.com/phoenixframework/phoenix" target="_blank" rel="noopener">phoenix</a>: 基于 Elixir 语言的 web 框架<br><b>Java</b></li>
+<li><a href="https://github.com/elasticsearch/elasticsearch" target="_blank" rel="noopener">elasticsearch</a>: 开源的分布式搜索引擎，社区活跃，支持强大<br><b>C/C++</b></li>
+<li><a href="https://github.com/nlohmann/json" target="_blank" rel="noopener">json</a>: C++ 的 JSON 库</li>
+<li><a href="https://github.com/winlinvip/simple-rtmp-server" target="_blank" rel="noopener">simple-rtmp-server</a>: 运营级的互联网直播服务器集群</li>
+<li><a href="https://github.com/mozilla/mozjpeg" target="_blank" rel="noopener">mozjpeg</a>: JPEG 图片解码压缩，Mozilla 出品</li>
+<li><a href="https://github.com/sass/libsass" target="_blank" rel="noopener">libsass</a>: SASS 的 C++ 实现</li>
+<li><a href="https://github.com/AfterTheRainOfStars/QQStars" target="_blank" rel="noopener">QQStars</a>: 基于 WebQQ 协议和 QT 开发的 QQ 客户端</li>
+<li><a href="https://github.com/BVLC/caffe" target="_blank" rel="noopener">caffe</a>: 一个关于数据挖掘的库</li>
+<li><a href="https://github.com/fastos/fastsocket" target="_blank" rel="noopener">fastsocket</a>: 一个高扩展性的 Socket 库，在多核设备上有良好的表现，新浪出品</li>
+<li><a href="https://github.com/ryanmjacobs/c" target="_blank" rel="noopener">C</a>: 将 C 语言校本化的一个工具, 可以直接编写 C 语言作为脚本使用<br><b>Go</b></li>
+<li><a href="https://github.com/derekparker/delve" target="_blank" rel="noopener">delve</a>: Go 调试器</li>
+<li><a href="https://github.com/golang/go" target="_blank" rel="noopener">go</a>: Go 源码</li>
+<li><a href="https://github.com/astaxie/beego" target="_blank" rel="noopener">beego</a>: 国内大牛开发的 Web 框架</li>
+<li><a href="https://github.com/revel/revel" target="_blank" rel="noopener">revel</a>: 全栈 Web 框架</li>
+<li><a href="https://github.com/go-martini/martini" target="_blank" rel="noopener">martini</a>: 另一款 Web 框架</li>
+<li><a href="https://github.com/sosedoff/pgweb" target="_blank" rel="noopener">pgweb</a>: PostgreSQL 的 Web 数据库浏览器<br><b>Lua</b></li>
+<li><a href="https://github.com/openresty/lua-nginx-module" target="_blank" rel="noopener">lua-nginx-module</a>: 一个 Nginx 组件包, 可以使用 Lua 来开发 Nginx 插件, 将之变成一个全功能的 Web 应用服务器</li>
+<li><a href="https://github.com/Mashape/kong" target="_blank" rel="noopener">kong</a>: 一个专注于可扩展, 高性能以及可靠性的 Restful API 框架<h2 id="IOS-或-OSX"><a href="#IOS-或-OSX" class="headerlink" title="IOS 或 OSX"></a>IOS 或 OSX</h2></li>
+<li><a href="https://github.com/ArtSabintsev/Harpy" target="_blank" rel="noopener">Harpy</a>: 用于检测应用更新</li>
+<li><a href="https://github.com/cruffenach/CRToast" target="_blank" rel="noopener">CRToast</a>: 现代、时髦的 IOS 通知提醒库</li>
+<li><a href="https://github.com/mattt/Ono" target="_blank" rel="noopener">Ono</a>: IOS 或者 OSX 中用于处理 XML &amp; HTML 的库</li>
+<li><a href="https://github.com/indragiek/CocoaMarkdown" target="_blank" rel="noopener">CocoaMarkdown</a>: IOS 或者 OSX 中用于解析或者渲染 Markdown 的库</li>
+<li><a href="https://github.com/Haneke/Haneke" target="_blank" rel="noopener">Haneke</a>: 一个用于缓存图片的 IOS 库，无需配置</li>
+<li><a href="https://github.com/Haneke/HanekeSwift" target="_blank" rel="noopener">HanekeSwift</a>: Haneke 的 swift 版本</li>
+<li><a href="https://github.com/bryceredd/RFQuiltLayout" target="_blank" rel="noopener">RFQuiltLayout</a>: 一个用于实现 IOS 端瀑布流的库</li>
+<li><a href="https://github.com/kolyvan/kxmenu" target="_blank" rel="noopener">kxmenu</a>: 用于 IOS 上实现垂直菜单，支持上下左右等方向</li>
+<li><a href="https://github.com/rsms/peertalk" target="_blank" rel="noopener">peertalk</a>: IOS 或者 OSX 中用于处理 USB 通信</li>
+<li><a href="https://github.com/romaonthego/REMenu" target="_blank" rel="noopener">REMenu</a>: IOS 中用于实现下拉菜单效果</li>
+<li><a href="https://github.com/romaonthego/RESideMenu" target="_blank" rel="noopener">RESideMenu</a>: IOS 中侧边栏的异步效果实现，类似于 QQ 中的侧边栏</li>
+<li><a href="https://github.com/levey/AwesomeMenu" target="_blank" rel="noopener">AwesomeMenu</a>: IOS 中用于实现类似于 Path 应用菜单的效果，各种酷炫</li>
+<li><a href="https://github.com/Alamofire/Alamofire" target="_blank" rel="noopener">Alamofire</a>: NFNetworking 的 Swift 版本</li>
+<li><a href="https://github.com/supermarin/Alcatraz" target="_blank" rel="noopener">Alcatraz</a>: Xcode 的包管理工具</li>
+<li><a href="https://github.com/Jawbone/JBChartView" target="_blank" rel="noopener">JBChartView</a>: IOS 的图表库</li>
+<li><a href="https://github.com/kevinzhow/PNChart" target="_blank" rel="noopener">PNChart</a>: 基于 IOS 的强大图表库</li>
+<li><a href="https://github.com/BradLarson/GPUImage" target="_blank" rel="noopener">GPUImage</a>: 基于 GPU 图片、视频处理库</li>
+<li><a href="https://github.com/nomad/shenzhen" target="_blank" rel="noopener">shenzhen</a>: 一个用于构架和发布 IOS 的命令行工具</li>
+<li><a href="https://github.com/TheLevelUp/ZXingObjC" target="_blank" rel="noopener">ZXingObjC</a>: ZXing(二维码、条形码扫描库) 的 Objective-C 实现</li>
+<li><a href="https://github.com/pkluz/PKRevealController" target="_blank" rel="noopener">PKRevealController</a>: IOS 上一个非常优秀的，用于实现侧边栏的库</li>
+<li><a href="https://github.com/kif-framework/KIF" target="_blank" rel="noopener">KIF</a>: IOS 功能测试框架</li>
+<li><a href="https://github.com/BoltsFramework/Bolts-iOS" target="_blank" rel="noopener">Bolts-iOS</a>: 为了加快开发速度的相对低层级的库集合， Parse 和 Facebook 出品</li>
+<li><a href="https://github.com/nghialv/MaterialKit" target="_blank" rel="noopener">MaterialKit</a>: 基于 Swift 实现的 Google Material Design 效果</li>
+<li><a href="https://github.com/Carthage/Carthage" target="_blank" rel="noopener">Carthage</a>: 一个简单的、去中心化的 Cocoa 依赖管理库, Swift 编写，仅用于 IOS8.0 及 以后的系统</li>
+<li><a href="https://github.com/icanzilb/JSONModel" target="_blank" rel="noopener">JSONModel</a>: 智能化的数据模型，有了它，再也不用手动解析JSON数据啦</li>
+<li><a href="https://github.com/krzysztofzablocki/KZPlayground" target="_blank" rel="noopener">KZPlayground</a>: 提供对 Objective-C 的 Playground 支持，比 Swift 更快</li>
+<li><a href="https://github.com/robotmedia/RMStore" target="_blank" rel="noopener">RMStore</a>: 轻量级应用内购买库，集成方便，使用简单，方便项目中快速支持应用内购买</li>
+<li><a href="https://github.com/facebook/pop" target="_blank" rel="noopener">pop</a>: Facebook开源出来的动画扩展库</li>
+<li><a href="https://github.com/jessesquires/JSQMessagesViewController" target="_blank" rel="noopener">JSQMessagesViewController</a>: 一个优美大方的即时聊天 UI 库</li>
+<li><a href="https://github.com/realm/realm-cocoa" target="_blank" rel="noopener">realm-cocoa</a>: 一个移动端数据库，提供了丰富的数据支持，快速，且不依赖 SQLite</li>
+<li><a href="https://github.com/mattt/Surge" target="_blank" rel="noopener">Surge</a>: Swift 的高效数学运算库，基于<a href="https://developer.apple.com/library/mac/documentation/Accelerate/Reference/AccelerateFWRef/_index.html" target="_blank" rel="noopener">Accelerate</a></li>
+<li><a href="https://github.com/Masonry/Masonry" target="_blank" rel="noopener">Masonry</a>: OSX 和 IOS 上用来简化 Autolayout 约束的一个库</li>
+<li><a href="https://github.com/Yalantis/Side-Menu.iOS" target="_blank" rel="noopener">Side-Menu.iOS</a>: 一款精美的侧边栏实现</li>
+<li><a href="https://github.com/facebook/AsyncDisplayKit" target="_blank" rel="noopener">AsyncDisplayKit</a>: IOS 上的一款异步界面引擎, 非常流畅, Facebook 出品</li>
+<li><a href="https://github.com/kiwi-bdd/Kiwi" target="_blank" rel="noopener">Kiwi</a>: IOS 的 BDD 测试框架</li>
+<li><a href="https://github.com/square/PonyDebugger" target="_blank" rel="noopener">PonyDebugger</a>: IOS 的远程调试工具, 允许开发者在 Chrome Developer Tool 中调试 IOS 应用</li>
+<li><a href="https://github.com/supermarin/ObjectiveSugar" target="_blank" rel="noopener">ObjectiveSugar</a>: 提供一些 Objective-C 的语法糖, 类似于 Ruby 的语法</li>
+<li><a href="https://github.com/SwiftyJSON/SwiftyJSON" target="_blank" rel="noopener">SwiftyJSON</a>: Swift 的一个处理 JSON 的库</li>
+<li><a href="https://github.com/robb/Cartography" target="_blank" rel="noopener">Cartography</a>: 在 Swift 中 声明式的使用 Autolayout</li>
+<li><a href="https://github.com/Haneke/HanekeSwift" target="_blank" rel="noopener">HanekeSwift</a>: Swift 中可用来做缓存的库,对图片的支持尤佳</li>
+<li><a href="https://github.com/nst/RuntimeBrowser" target="_blank" rel="noopener">RuntimeBrowser</a>: IOS 和 OSX 的运行时类浏览器, 可以查看运行时的头文件, 允许动态加载新模块</li>
+<li><a href="https://github.com/nst/iOS-Runtime-Headers" target="_blank" rel="noopener">iOS-Runtime-Headers</a>: IOS 运行时头文件, 从RuntimeBrowser抽出</li>
+<li><a href="https://github.com/Naituw/WBWebViewConsole" target="_blank" rel="noopener">WBWebViewConsole</a>: 应用内置用于 Debug 的控制台, 支持 UIWebView &amp; WKWebView</li>
+<li><a href="https://github.com/danielebogo/DBCamera" target="_blank" rel="noopener">DBCamera</a>: 方便高度自定义相机UI的库</li>
+<li><a href="https://github.com/NZN/UIImage-Helpers" target="_blank" rel="noopener">UIImage-Helpers</a>: 截图、模糊化图片、生成特定颜色的图片，都可以由这个库完成</li>
+<li><a href="https://github.com/daltoniam/SwiftHTTP" target="_blank" rel="noopener">SwiftHTTP</a>: Swift 的 HTTP 封装</li>
+<li><a href="https://github.com/viki-org/VKVideoPlayer" target="_blank" rel="noopener">VKVideoPlayer</a>: 方便高度自定义视频播放器的库</li>
+<li><a href="https://github.com/magicalpanda/MagicalRecord" target="_blank" rel="noopener">MagicalRecord</a>: 基于 Core Data 之上的 ORM, 是 Active Record 的 IOS 版实现, 可以精简 Core Data 代码</li>
+<li><a href="https://github.com/stephencelis/SQLite.swift" target="_blank" rel="noopener">SQLite.swift</a>: SQLite3 的 Swift 层接口实现<br><b>Android</b></li>
+<li><a href="https://github.com/r0adkll/Slidr" target="_blank" rel="noopener">Slidr</a>: 一个用于给 Activity 添加滑动消隐效果的库</li>
+<li><a href="https://github.com/1sters/material_design_zh" target="_blank" rel="noopener">material_design_zh</a>: Material Design 的中文协同翻译</li>
+<li><a href="https://github.com/inaka/galgo" target="_blank" rel="noopener">galgo</a>: Android 的日志工具，可以将日志显示在 Activity 的最上端，方便调试</li>
+<li><a href="https://github.com/pedant/sweet-alert-dialog" target="_blank" rel="noopener">sweet-alert-dialog</a>: Sweet Alert Android 版本，用于应用内通知和提示</li>
+<li><a href="https://github.com/Yalantis/Side-Menu.Android" target="_blank" rel="noopener">Side-Menu.Android</a>: 一款精美的侧边栏实现</li>
+<li><a href="https://github.com/square/dagger" target="_blank" rel="noopener">dagger</a>: Android 和 Java 的依赖注入库</li>
+<li><a href="https://github.com/square/picasso" target="_blank" rel="noopener">picasso</a>: 一款用于下载并缓存图片的库</li>
+<li><a href="https://github.com/asyl/ArcAnimator" target="_blank" rel="noopener">ArcAnimator</a>: 实现 ARC 动画的库</li>
+<li><a href="https://github.com/PhilJay/MPAndroidChart" target="_blank" rel="noopener">MPAndroidChart</a>: 强大的图表工具<h2 id="代码效率"><a href="#代码效率" class="headerlink" title="代码效率"></a>代码效率</h2><b>CoffeeScript</b></li>
+<li><a href="https://github.com/jashkenas/coffeescript" target="_blank" rel="noopener">coffeescript</a>: Coffeescript 源码<br><b>TypeScript</b></li>
+<li><a href="https://github.com/borisyankov/DefinitelyTyped" target="_blank" rel="noopener">DefinitelyTyped</a>: 高质量的 TypeScript 资源汇总<br><b>Sublime Text</b></li>
+<li><a href="https://github.com/SublimeCodeIntel/SublimeCodeIntel" target="_blank" rel="noopener">SublimeCodeIntel</a>: Sublime Text 的代码补全工具，支持多种语言</li>
+<li><a href="https://github.com/emmetio/emmet" target="_blank" rel="noopener">Emmet</a>：一个用于提高开发效率的编辑器插件，前身是Zen coding</li>
+<li><a href="https://github.com/SublimeLinter/SublimeLinter3" target="_blank" rel="noopener">SublimeLinter</a>: 一个提供代码质量检测的插件</li>
+<li><a href="https://github.com/kairyou/SublimeTmpl" target="_blank" rel="noopener">SublimeTmpl</a>：快速新建指定的模版文件</li>
+<li><a href="https://github.com/P233/Syntax-highlighting-for-Sass" target="_blank" rel="noopener">Syntax-highlighting-for-Sass</a>：sass代码高亮插件</li>
+<li><a href="https://github.com/SublimeText-Markdown/MarkdownEditing" target="_blank" rel="noopener">MarkdownEditing</a>: Sublime Text 强大的 Markdown 扩展, 提供快捷键, 主题等</li>
+<li><a href="https://github.com/facelessuser/ApplySyntax/" target="_blank" rel="noopener">ApplySyntax</a>: 辅助检测语法插件</li>
+<li><a href="https://github.com/SublimeText/CTags/" target="_blank" rel="noopener">CTags</a>: Sublime Text Ctags 支持插件, 需要安装 ctags</li>
+<li><a href="https://github.com/reactjs/sublime-react" target="_blank" rel="noopener">sublime-react</a>: React 代码高亮</li>
+</ul>
+<h2 id="云计算"><a href="#云计算" class="headerlink" title="云计算"></a>云计算</h2><p><b>Docker</b></p>
+<ul>
+<li><a href="https://github.com/GoogleCloudPlatform/kubernetes" target="_blank" rel="noopener">kubernetes</a>: Google 开源的 Docker 集中管控系统</li>
+<li><a href="https://github.com/zettio/weave" target="_blank" rel="noopener">weave</a>: 用于为基于不同主机的 Docker Containers 创建一个虚拟网络<br><b>OS</b></li>
+<li><a href="https://github.com/torvalds/linux" target="_blank" rel="noopener">linux</a>: linux 源码，Linus 大神之作，只能膜拜了</li>
+<li><a href="https://github.com/joyent/smartos-live" target="_blank" rel="noopener">smartos-live</a>: Joyent 出品的用于云平台的智能 OS</li>
+</ul>
+<h2 id="开源产品-论坛、在线教育、项目管理等"><a href="#开源产品-论坛、在线教育、项目管理等" class="headerlink" title="开源产品(论坛、在线教育、项目管理等)"></a>开源产品(论坛、在线教育、项目管理等)</h2><ul>
+<li><a href="https://github.com/edx/edx-platform" target="_blank" rel="noopener">Edx</a>: 在线教育平台源代码，Edx</li>
+<li><a href="https://github.com/AlchemyCMS/alchemy_cms" target="_blank" rel="noopener">alchemy_cms</a>: 开源 CMS 系统，基于 Rails</li>
+<li><a href="https://github.com/flynn/flynn" target="_blank" rel="noopener">flynn</a>: 下一代 PAAS 服务产品，用于管理主机或者 AWS 实例</li>
+<li><a href="https://github.com/zensh/jsgen" target="_blank" rel="noopener">jsgen</a>: 开源论坛、博客系统, 基于 Node.js, AngularJS, MongoDB</li>
+<li><a href="http://git.libreboard.com/libreboard/libreboard" target="_blank" rel="noopener">libreboard</a>: <a href="https://github.com/libreboard/libreboard" target="_blank" rel="noopener">开源看板系统</a>，除了配色，长得几乎和 <a href="https://trello.com/" target="_blank" rel="noopener">Trello</a> 一模一样</li>
+<li><a href="https://github.com/twostairs/paperwork" target="_blank" rel="noopener">paperwork</a>: 开源笔记系统，类似于Evernote, Microsoft OneNote &amp; Google Keep</li>
+<li><a href="https://github.com/arachnys/cabot" target="_blank" rel="noopener">cabot</a>: 开源服务器监控服务</li>
+<li><ul>
+<li><a href="https://github.com/mozilla/firefox-ios" target="_blank" rel="noopener">firefox-ios</a>: IOS 版 Firefox 源代码</li>
+</ul>
+</li>
+<li><a href="https://github.com/gogits/gogs" target="_blank" rel="noopener">gogs</a>: 一款开源 Git 托管服务，基于 GO 语言开发，类似于 Gitlab</li>
+<li><a href="https://github.com/cantino/huginn" target="_blank" rel="noopener">huginn</a>: 个人代理监控，可以监控天气、Twitter、网站等等，并按照预设的条件发送通知给自己，功能强大！</li>
+<li><a href="https://github.com/cnodejs/nodeclub" target="_blank" rel="noopener">nodeclub</a>: 社区系统，基于Node.js 和 MongoDB 开发</li>
+<li><a href="https://github.com/keystonejs/keystone" target="_blank" rel="noopener">keystone</a>: 基于 Node.js 的 CMS 系统</li>
+<li><a href="https://github.com/punkave/apostrophe" target="_blank" rel="noopener">apostrophe</a>: 基于 Node.js 的 CMS 系统</li>
+<li><a href="https://github.com/reddit/reddit" target="_blank" rel="noopener">reddit</a>: Reddit 的源代码</li>
+<li><a href="https://github.com/sdelements/lets-chat" target="_blank" rel="noopener">lets-chat</a>: 适合小团队的聊天服务, 可以自己搭建, 基于 Node.js 支持 Restful API, XMPP 等</li>
+<li><a href="https://github.com/progrium/dokku" target="_blank" rel="noopener">dokku</a>: 基于 Docker 的 Mini-Heroku, 最小型的 PAAS 实现</li>
+<li><a href="https://github.com/videolan/vlc" target="_blank" rel="noopener">VLC</a>: VLC 视频播放器源代码</li>
+<li><a href="https://github.com/iSimar/HackerNews-React-Native" target="_blank" rel="noopener">HackerNews-React-Native</a>: HackerNews 基于 React Native 实现</li>
+<li><a href="https://github.com/spree/spree" target="_blank" rel="noopener">spree</a>: 基于 Ruby on Rails 的开源在线电子商务网站</li>
+<li><a href="https://github.com/singro/v2ex" target="_blank" rel="noopener">v2ex</a>: V2EX 的 IOS 源代码</li>
+</ul>
+<h2 id="代码规范-amp-设计模式"><a href="#代码规范-amp-设计模式" class="headerlink" title="代码规范&amp;设计模式"></a>代码规范&amp;设计模式</h2><p><b>Ruby</b></p>
+<ul>
+<li><a href="https://github.com/airbnb/ruby" target="_blank" rel="noopener">Airbnb</a> 的 ruby 代码编写规范: Airbnb 的 ruby 代码编写规范<br><b>Rails</b></li>
+<li><a href="https://github.com/bbatsov/rails-style-guide" target="_blank" rel="noopener">Rails 代码编写规范</a>: Rails 代码编写规范<br><b>Javascript</b></li>
+<li><a href="https://github.com/umdjs/umd" target="_blank" rel="noopener">umd</a>: 全局模块定义, 提供了几种模块定义规则和模式, 使其可以支持 AMD/CMD/浏览器全局/jQuery插件等<br><b>AngularJS</b></li>
+<li><a href="https://github.com/toddmotto/angularjs-styleguide" target="_blank" rel="noopener">angularjs-styleguide</a>: AngularJS 代码规范</li>
+<li><a href="https://github.com/trochette/Angular-Design-Patterns-Best-Practices" target="_blank" rel="noopener">Angular-Design-Patterns-Best-Practices</a>: Angular 设计模式的最佳实现<br><b>Java</b></li>
+<li><a href="https://github.com/iluwatar/java-design-patterns" target="_blank" rel="noopener">java-design-patterns</a>: Java 设计模式<br><b>Android</b></li>
+<li><a href="https://github.com/futurice/android-best-practices" target="_blank" rel="noopener">android-best-practices</a>: Android 开发最佳实践<br><b>Bash</b></li>
+<li><a href="https://github.com/progrium/bashstyle" target="_blank" rel="noopener">bashstyle</a>: Bash 代码编写规范<br><b>Objective-C</b></li>
+<li><a href="https://github.com/NYTimes/objective-c-style-guide" target="_blank" rel="noopener">objective-c-style-guide</a>: Objective-C 代码编写规范，New York Times 出品<br><b>IOS</b></li>
+<li><a href="https://github.com/futurice/ios-good-practices" target="_blank" rel="noopener">ios-good-practices</a>: IOS 开发最佳实践<br><b>Swift</b></li>
+<li><a href="https://github.com/raywenderlich/swift-style-guide" target="_blank" rel="noopener">swift-style-guide</a>: Swift 代码编写规范<br><b>Design</b></li>
+<li><a href="https://github.com/18F/web-design-standards" target="_blank" rel="noopener">web-design-standards</a>: 网站设计标准（美国政府网站）</li>
+</ul>
+<h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><ul>
+<li><a href="https://github.com/begriffs/postgrest" target="_blank" rel="noopener">postgrest</a>: PostgreSQL 的 RESTful API</li>
+<li><a href="https://github.com/amjith/pgcli" target="_blank" rel="noopener">pgcli</a>: PostgreSQL 命令行工具，提供高亮和自动补全</li>
+<li><a href="https://github.com/mongodb/mongo" target="_blank" rel="noopener">mongo</a>: MongoDB 源代码</li>
+<li><a href="https://github.com/louischatriot/nedb" target="_blank" rel="noopener">nedb</a>: 纯 Javascript 实现，类 MongoDB 的内存型数据库，API 基本和 MongoDB相同，可选同步写入磁盘，小项目数据不太多时性能很强乃至超过MongoDB</li>
+<li><a href="https://github.com/Tokutek/mongo" target="_blank" rel="noopener">TokuMX MongoDB</a>: TokuMX 版的 MongoDB, MongoDB 的一个分支，支持更快的写速度，完整的事务支持等</li>
+<li><a href="https://github.com/sequelpro/sequelpro" target="_blank" rel="noopener">sequelpro</a>: Mac OSX 的 MySQL 数据库管理软件</li>
+</ul>
+<h2 id="博客-网站"><a href="#博客-网站" class="headerlink" title="博客 / 网站"></a>博客 / 网站</h2><p><b>设计</b></p>
+<ul>
+<li><a href="https://dribbble.com/" target="_blank" rel="noopener">Dribble</a>: 设计师必上的网站，各种设计资源、创意、分享等</li>
+<li><a href="https://designmuseum.org/" target="_blank" rel="noopener">Design Museum</a>: 当代前沿设计，涉及设计的各个领域</li>
+<li><a href="https://www.behance.net/" target="_blank" rel="noopener">Behance</a>: 创意&amp;设计资源集合，Adobe 旗下网站(应用)</li>
+<li><a href="http://www.awwwards.com/" target="_blank" rel="noopener">Awwwards</a>: 一家筛选评比互联网上最佳网站设计开发的网站</li>
+<li><a href="http://www.gooood.hk/" target="_blank" rel="noopener">gooood</a>: 建筑，景观，设计，艺术在线杂志</li>
+<li><a href="http://ui4app.com/" target="_blank" rel="noopener">ui4app</a>: 专注于 IOS UI 的一个网站，提供各种设计资源</li>
+<li><a href="http://www.wookmark.com/" target="_blank" rel="noopener">wookmark</a>: 这上面有分享的各种各样的美图、设计等<br><b>技术</b></li>
+<li><a href="http://code4app.com/" target="_blank" rel="noopener">code4app</a>: 专注于IOS 代码的一个网站，提供各种功能实现 Demo</li>
+<li><a href="http://css-tricks.com/" target="_blank" rel="noopener">CSS Tricks</a>: 各种 CSS 技巧</li>
+<li><a href="http://www.html5rocks.com/en/" target="_blank" rel="noopener">html5rocks</a>: 提供各种各样关于 HTML5 的资讯</li>
+<li><a href="http://html5weekly.com/" target="_blank" rel="noopener">html5weekly</a>: 提供各种各样关于 HTML5 的资讯和技巧</li>
+<li><a href="http://rubyweekly.com/" target="_blank" rel="noopener">rubyweekly</a>: 提供各种各样关于 Ruby 的资讯和技巧</li>
+<li><a href="http://javascriptweekly.com/" target="_blank" rel="noopener">javascriptweekly</a>: 提供各种各样关于 Javascript 的资讯和技巧</li>
+<li><a href="http://www.ng-newsletter.com/" target="_blank" rel="noopener">ng-newsletter</a>: 提供各种各样关于 Angular 的资讯和技巧</li>
+<li><a href="https://cnodejs.org/" target="_blank" rel="noopener">cnodejs</a>: 国内最大最火 Node.js 社区</li>
+<li><a href="https://ruby-china.org/" target="_blank" rel="noopener">ruby-china</a>: 国内最大最火 Ruby 社区</li>
+<li><a href="http://angularjs.cn/" target="_blank" rel="noopener">angularjs</a>: Angularjs 的国内中文社区</li>
+</ul>
+<h2 id="书籍-阅读-学习"><a href="#书籍-阅读-学习" class="headerlink" title="书籍 / 阅读 / 学习"></a>书籍 / 阅读 / 学习</h2><p><b>Awesome 系列</b></p>
+<ul>
+<li><a href="https://github.com/sindresorhus/awesome" target="_blank" rel="noopener">awesome</a>: awesome 汇总</li>
+<li><a href="https://github.com/Aufree/trip-to-iOS" target="_blank" rel="noopener">iOS 学习资料整理</a>: IOS 的各种学习资料整理，初学者必备</li>
+<li><a href="https://github.com/wasabeef/awesome-android-libraries" target="_blank" rel="noopener">awesome-android-libraries</a>: Android 各种开源库的一个汇总</li>
+<li><a href="https://github.com/wasabeef/awesome-android-ui" target="_blank" rel="noopener">awesome-android-ui</a>: Android 各种开源UI/UX库的一个汇总</li>
+<li><a href="https://github.com/prakhar1989/awesome-courses" target="_blank" rel="noopener">awesome-courses</a>: 关于计算机科学的各种大学教学课程</li>
+<li><a href="https://github.com/markets/awesome-ruby" target="_blank" rel="noopener">awesome-ruby</a>: Ruby 资源集合</li>
+<li><a href="https://github.co%20m/avelino/awesome-go" target="_blank" rel="noopener">awesome-go</a>: Go 资源集合</li>
+<li><a href="https://github.com/fffaraz/awesome-cpp" target="_blank" rel="noopener">awesome-cpp</a>: C++ 的资源集合</li>
+<li><a href="https://github.com/h4cc/awesome-elixir" target="_blank" rel="noopener">awesome-elixir</a>: Elixir 资源集合</li>
+<li><a href="https://github.com/emacs-tw/awesome-emacs" target="_blank" rel="noopener">awesome-emacs</a>: Emacs 资源整合</li>
+<li><a href="https://github.com/dypsilon/frontend-dev-bookmarks" target="_blank" rel="noopener">frontend-dev-bookmarks</a>: 前端开发资源的集合, 内容极多</li>
+<li><a href="https://github.com/joeljfischer/awesome-apple" target="_blank" rel="noopener">awesome-apple</a>: 关于苹果开发的插件/库/文章等资源</li>
+<li><a href="https://github.com/moklick/frontend-stuff" target="_blank" rel="noopener">frontend-stuff</a>: 前端相关的各种资源, JS 内容居多</li>
+<li><a href="https://github.com/matteocrippa/awesome-swift" target="_blank" rel="noopener">awesome-swift</a>: Swift 资源整合</li>
+<li><a href="https://github.com/enaqx/awesome-react" target="_blank" rel="noopener">awesome-react</a>: React 资源整合</li>
+<li><a href="https://github.com/davidsonfellipe/awesome-wpo" target="_blank" rel="noopener">awesome-wpo</a>: 一系列前端性能优化集合</li>
+<li><a href="https://github.com/gianarb/awesome-angularjs" target="_blank" rel="noopener">awesome-angularjs</a>: AngularJS 资源整合</li>
+<li><a href="https://github.com/sindresorhus/awesome-nodejs" target="_blank" rel="noopener">awesome-nodejs</a> : Node.js 资源整合</li>
+<li><a href="https://github.com/ziadoz/awesome-php" target="_blank" rel="noopener">awesome-php</a> : PHP 资源整合</li>
+<li><a href="https://github.com/vinta/awesome-python" target="_blank" rel="noopener">awesome-python</a> : Python 资源整合</li>
+<li><a href="https://github.com/J2TeaM/awesome-AutoIt" target="_blank" rel="noopener">awesome-autoit</a> : 第三方定制开源软件合集</li>
+<li><a href="https://github.com/ruby-vietnam/awesome-books" target="_blank" rel="noopener">awesome-books</a>: 一些很不错的开发书籍</li>
+</ul>
+<h2 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h2><p><b>Web</b></p>
+<ul>
+<li><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions" target="_blank" rel="noopener">Front-end-Developer-Interview-Questions</a>: 各种前端面试问题</li>
+<li><a href="https://github.com/alex/what-happens-when" target="_blank" rel="noopener">what-happens-when</a>: 一篇文章，详细解释了从在浏览器中输入网址之后发生的一切</li>
+<li><a href="https://github.com/addyosmani/backbone-fundamentals" target="_blank" rel="noopener">backbone-fundamentals</a>: 关于 Backbone 的一本书，初学和高级都适用</li>
+<li><a href="https://github.com/http2/http2-spec" target="_blank" rel="noopener">http2-spec</a>: HTTP 2 草案</li>
+<li><a href="https://github.com/aekaplan/grid" target="_blank" rel="noopener">grid</a>: 响应式布局指南</li>
+<li><a href="https://github.com/JacksonTian/fks" target="_blank" rel="noopener">fks</a>: 前端技能汇总</li>
+<li><a href="https://github.com/jmcunningham/AngularJS-Learning" target="_blank" rel="noopener">AngularJS-Learning</a>: AngularJS 的各种学习资源</li>
+<li><a href="https://github.com/getify/You-Dont-Know-JS" target="_blank" rel="noopener">You-Dont-Know-JS</a>: 一个 Javascript 系列图书，主要讲述 JS 的核心概念和机制</li>
+<li><a href="https://github.com/BonsaiDen/JavaScript-Garden" target="_blank" rel="noopener">JavaScript-Garden</a>: 一个关于 Javascript 的诡异特性集合</li>
+<li><a href="http://lyfeyaj.com/2015/01/07/debugging-angularjs-apps-from-the-console/" target="_blank" rel="noopener">在控制台中调试 AngularJS 应用</a>: 在控制台中调试 AngularJS 应用的几种方法</li>
+<li><a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/" target="_blank" rel="noopener">Learning JavaScript Design Patterns</a>: 学习 Javascript 设计模式</li>
+<li><a href="https://github.com/lukehoban/es6features" target="_blank" rel="noopener">es6features</a>: ECMAScript 6 特性概览</li>
+<li><a href="https://github.com/addyosmani/es6-tools" target="_blank" rel="noopener">es6-tools</a>: ECMAScript 6 工具集合</li>
+<li><a href="https://github.com/bendc/frontend-guidelines" target="_blank" rel="noopener">frontend-guidelines</a>: 前端指南, 主要讲述 HTML, CSS 和 JS 的最佳实践</li>
+<li><a href="https://github.com/ruanyf/es6tutorial" target="_blank" rel="noopener">es6tutorial</a>: 《ECMAScript 6入门》是一本开源的JavaScript语言教程，全面介绍ECMAScript 6新增的语法特性。</li>
+<li><a href="https://github.com/jmcunningham/AngularJS-Learning" target="_blank" rel="noopener">AngularJS-Learning</a>: AngularJS 学习资源</li>
+<li><a href="https://github.com/desandro/practical-ui-physics" target="_blank" rel="noopener">practical-ui-physics</a>: 各种前端物理效果的实现原理</li>
+<li><a href="https://github.com/nzakas/understandinges6" target="_blank" rel="noopener">understandinges6</a>: 电子书： Understanding ES6<br><b>IOS</b></li>
+<li><a href="https://github.com/qinjx/30min_guides" target="_blank" rel="noopener">30min_guides</a>: 覃健祥的学习笔记，若干个几十分钟入门的文档</li>
+<li><a href="http://numbbbbb.gitbooks.io/-the-swift-programming-language-/content/" target="_blank" rel="noopener">The Swift Programming Language 中文版</a>: The Swift Programming Language 中文版, 苹果官方教程的中文翻译</li>
+<li><a href="https://www.cocoacontrols.com/" target="_blank" rel="noopener">cocoacontrols</a>: 包含各种 OSX 或者 IOS 的开源 UI 库或者 商业库<br><b>Android</b></li>
+<li><a href="https://github.com/kesenhoo/android-training-course-in-chinese" target="_blank" rel="noopener">android-training-course-in-chinese</a>: Google Android官方培训课程中文版</li>
+<li><a href="https://github.com/inferjay/AndroidDevTools" target="_blank" rel="noopener">AndroidDevTools</a>: Android 收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等</li>
+</ul>
+<h2 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h2><p><b>Node.js</b></p>
+<ul>
+<li><a href="https://github.com/alsotang/node-lessons" target="_blank" rel="noopener">node-lessons</a>: Node.js 包教不包会</li>
+<li><a href="https://github.com/pana/node-books" target="_blank" rel="noopener">node-books</a>: 关于 Node.js 的一些书籍</li>
+<li><a href="https://github.com/maxogden/art-of-node" target="_blank" rel="noopener">art-of-node</a>: Node的艺术, 一本简短的书，旨在介绍 Node</li>
+<li><a href="http://nodejs.ucdok.com/" target="_blank" rel="noopener">Node.js 实战</a>: 以实战开发中的应用为例的讲解</li>
+<li><a href="http://nodeschool.io/" target="_blank" rel="noopener">nodeschool</a>: 基于 Node.js 打造的、跑在终端上的开源教学课程。</li>
+<li><a href="https://github.com/jabez128/stream-handbook" target="_blank" rel="noopener">stream-handbook</a>: 讲解 Node Stream(流) 的详细教程,中文版</li>
+<li><a href="https://github.com/nqdeng/7-days-nodejs" target="_blank" rel="noopener">7-days-nodejs</a>: 七天学会 Node.js<br><b>Ruby</b></li>
+<li><a href="https://github.com/JuanitoFatas/fast-ruby" target="_blank" rel="noopener">fast-ruby</a>: 怎样写出更快的 Ruby<br><b>PHP</b></li>
+<li><a href="https://github.com/walu/phpbook" target="_blank" rel="noopener">phpbook</a>: PHP扩展开发及内核应用</li>
+<li><a href="https://github.com/reeze/tipi" target="_blank" rel="noopener">tipi</a>: 深入理解PHP内核</li>
+<li><a href="https://github.com/wulijun/php-the-right-way" target="_blank" rel="noopener">php-the-right-way</a>: PHP之道<br><b>Go</b></li>
+<li><a href="https://github.com/astaxie/build-web-application-with-golang" target="_blank" rel="noopener">build-web-application-with-golang</a>: beego 作者写的关于怎么使用 Go 语言开发 web 应用的书<br><b>接口</b></li>
+<li><a href="https://github.com/interagent/http-api-design" target="_blank" rel="noopener">http-api-design</a>: 从 Heroku 接口总结出的，如何更好地设计 API 接口<br><b>算法 &amp; 论文</b></li>
+<li><a href="https://github.com/julycoding/The-Art-Of-Programming-By-July" target="_blank" rel="noopener">The-Art-Of-Programming-By-July</a>: 程序员编程艺术：面试和算法心得</li>
+<li><a href="https://github.com/papers-we-love/papers-we-love" target="_blank" rel="noopener">papers-we-love</a>: 计算机科学学术论文的一个集合，内容丰富有深度<br><b>其他</b></li>
+<li><a href="https://github.com/thoughtbot/til" target="_blank" rel="noopener">til</a>: 今天我们学了什么，thoughtbot 出品，建议 watch</li>
+<li><a href="https://github.com/soulteary/tenant-point" target="_blank" rel="noopener">tenant-point</a>: 租房要点，适用于北上广深杭</li>
+<li><a href="https://github.com/0xAX/linux-insides" target="_blank" rel="noopener">linux-insides</a>: 关于 Linux 内核的一些知识</li>
+<li><a href="http://www.imooc.com/" target="_blank" rel="noopener">慕课网</a>: 在线学习平台，各种编程学习资源</li>
+<li><a href="https://github.com/redecentralize/alternative-internet" target="_blank" rel="noopener">alternative-internet</a>: 一些有趣的新型互联网和技术,主要目的是去中心化</li>
+<li><a href="https://github.com/the-teacher/cocktails_for_programmers" target="_blank" rel="noopener">cocktails_for_programmers</a>: 程序员鸡尾酒, 一个特意为专业节日“程序员日”而建立的鸡尾酒项目！“程序员日”在每年的第256天。</li>
+<li><a href="http://waitbutwhy.com/" target="_blank" rel="noopener">Wait but Why?</a>: 非常有意思的一个网站, 会有一些有趣的观点和文章</li>
+<li><a href="https://github.com/samsquire/ideas" target="_blank" rel="noopener">ideas</a>: 有趣的想法, 更多是一个作者对于编程/软件/工具 的思考和整理</li>
+<li><a href="https://github.com/X140Yu/Developing_iOS_8_Apps_With_Swift" target="_blank" rel="noopener">Developing_iOS_8_Apps_With_Swift</a>: 斯坦福大学公开课： 如何使用 Swift 开发 iOS8 应用</li>
+</ul>
+<h2 id="科学上网"><a href="#科学上网" class="headerlink" title="科学上网"></a>科学上网</h2><ul>
+<li><a href="https://github.com/clowwindy/ShadowVPN" target="_blank" rel="noopener">ShadowVPN</a>: 科学上网之 VPN</li>
+<li><a href="https://github.com/shadowsocks/shadowsocks" target="_blank" rel="noopener">shadowsocks</a>: 科学上网利器(服务器端) ~ 墙外的世界丰富多彩</li>
+<li><a href="https://github.com/shadowsocks/shadowsocks-android" target="_blank" rel="noopener">shadowsocks-android</a>: shadowsocks 安卓客户端</li>
+<li><a href="https://github.com/clowwindy/gfwlist2pac" target="_blank" rel="noopener">gfwlist2pac</a>: 科学上网之 GFWlist to Pac</li>
+<li><a href="https://edgepeek.com/articles/144-ubuntu-12-dot-04-shang-pptp-vpn-da-jian" target="_blank" rel="noopener">PPTP VPN 搭建</a>: PPTP VPN 搭建教程</li>
+<li><a href="https://github.com/justjavac/Google-IPs" target="_blank" rel="noopener">Google-IPs</a>: Google 全球 IP 地址库</li>
+<li><a href="https://github.com/chengr28/RevokeChinaCerts" target="_blank" rel="noopener">RevokeChinaCerts</a>: 一次性删除所有 CNNIC 证书的工具</li>
+<li><a href="https://github.com/getlantern/lantern" target="_blank" rel="noopener">lantern</a>: 新一代FQ工具, 借助于P2P, 速度很快</li>
+</ul>
+<h2 id="Git-相关"><a href="#Git-相关" class="headerlink" title="Git 相关"></a>Git 相关</h2><ul>
+<li><a href="https://github.com/sitaramc/gitolite" target="_blank" rel="noopener">gitolite</a>: 用于构建 Git 服务器</li>
+<li><a href="https://github.com/mroth/lolcommits" target="_blank" rel="noopener">lolcommits</a>: 给自己的 git commit</li>
+<li><a href="https://github.com/ndbroadbent/scm_breeze" target="_blank" rel="noopener">scm_breeze</a>: Git 流程的辅助简化工具</li>
+<li><a href="https://github.com/maryrosecook/gitlet" target="_blank" rel="noopener">gitlet</a>: Javascript 实现的 Git</li>
+<li><a href="https://github.com/creationix/js-git" target="_blank" rel="noopener">js-git</a>: Git 的 Javascript 实现</li>
+</ul>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
+<li><a href="https://github.com/maciejczyzewski/retter" target="_blank" rel="noopener">retter</a>: 密码学相关的算法库</li>
+<li><a href="https://github.com/gorhill/uBlock" target="_blank" rel="noopener">uBlock</a>: Chrome, Firefox, Safari 插件用来屏蔽内容（如广告等），可自定义</li>
+<li><a href="https://github.com/rust-lang/rust" target="_blank" rel="noopener">rust</a>: Rust 语言源码</li>
+<li><a href="https://github.com/aui/font-spider" target="_blank" rel="noopener">font-spider</a>: 中文 WebFont 自动化压缩工具<br>加一张杀马特的照片</li>
+<li><a href="https://github.com/algolia/github-awesome-autocomplete" target="_blank" rel="noopener">github-awesome-autocomplete</a>: Github 的浏览器插件, 用于辅助搜索, 更加人性化的搜索结果</li>
+<li><a href="https://github.com/bkeepers/dotenv" target="_blank" rel="noopener">dotenv</a>: 用于配置本地环境, 可以为不同的文件夹设置不同的环境</li>
+</ul>
+
+    </div>
+	<div>
+		<div class="zanshang">
+			<a href="javascript:void(0)" onclick="document.getElementById('QR_Code').style.display='block';document.getElementById('fade').style.display='block'">赞赏</a>
+		</div>
+	</div>
+	<div id="QR_Code" class="QR_Code">
+		<img src="/img/QR_Code.png" alt="扫一扫，打赏我">
+	</div>
+	<div id="fade" class="QR_Code_overlay" onclick="document.getElementById('QR_Code').style.display='none';document.getElementById('fade').style.display='none'"> 
+	</div>
+    
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/code/">code</a></li></ul>
+    
+</article>
+<div class="author-info u-clearfix">
+<div class="socialiter">
+  
+  
+  <a href="https://twitter.com/cangliangCN" title="twitter">
+    <svg class="icon-socialiter"><use xlink:href="#icon-twitter"/></svg>
+  </a>
+  
+  
+  <a href="https://github.com/fateplayer" title="Github">
+    <svg class="icon-socialiter"><use xlink:href="#icon-github"/></svg>
+  </a>
+  
+  
+  <a href="http://weibo.com/lzwzl" title="微博">
+    <svg class="icon-socialiter"><use xlink:href="#icon-weibo"/></svg>
+  </a>
+  
+</div>
+
+<img class="avatar" width="64" height="64" src="/img/avatar.png" alt="Fanyun">
+<span class="author-name">Fanyun</span>
+<div class="author-description">Copyright©1993 - Now. 瞎塔码搞</div>
+</div>
+
+
+<section id="comments">
+<div id="SOHUCS" sid="2016/03/27/Development-resources-summary/"></div> 
+	<script type="text/javascript"> 
+		(function(){ 
+		var appid = 'cyt2bSDmQ'; 
+		var conf = 'prod_324e46dfa6304f2e4f0b21dadfcc62cd'; 
+		var width = window.innerWidth || document.documentElement.clientWidth; 
+		if (width < 960) { window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("http://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); 
+	</script>
+</section>
+
+</section>
+      </div>
+      <footer class="site-footer">
+<div class="footer-declaration">本站部分内容收集于互联网，如果有侵权内容、不妥之处，请联系我们删除。敬请谅解!</div>
+	<p> &copy; 2016 - 2018 <a href="http://fateplayer.com" target="_self" title="命运游侠">命运游侠</a>
+		<svg class="icon icon-heart"><use xlink:href="#heartbeat"/></svg>
+		<a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/fateplayer/hexo-theme-nonfish/" target="_blank" title="hexo-theme-nonfish">nonfish</a>
+	</p>
+	<script src="/js/app.js"></script><script src="/js/backTop.js"></script><script src="/js/biaoti.js"></script><script src="/js/jquery.knob.js"></script>
+  <script src="/js/archives_jz.js"></script>
+	<div class="backTop">
+	    <input class="knob" data-width="30" data-height="30" readonly data-displayinput="false" data-thickness="1" data-bgcolor="transparent" data-fgcolor="#b9b9b9">
+	</div>
+</footer>
+
+    </div>
+</body>
+</html>

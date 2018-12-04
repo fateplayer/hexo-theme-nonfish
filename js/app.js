@@ -1,0 +1,1 @@
+!function(){'use strict';var ua=navigator.userAgent;var os='';if(ua.indexOf('Windows')>-1){os='windows'}else{os='other'}document.querySelector('body').classList.add(os)}();function pageScroll(){window.scrollBy(0,-10);scrolldelay=setTimeout('pageScroll()',1);var sTop=document.documentElement.scrollTop+document.body.scrollTop;if(sTop==0)clearTimeout(scrolldelay)}

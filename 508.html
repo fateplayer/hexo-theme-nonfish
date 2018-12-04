@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+<script src="js/jq.js"></script>
+<script type="text/javascript">
+var url1 = "https://chart.googleapis.com/chart?cht=qr&chs=150x150&choe=UTF-8&chld=L|4&chl="+window.location.href;
+var url2 = "http://qr.liantu.com/api.php?&fg=000&w=150&m=0text="+window.location.href;
+$(document).ready(function(){
+$(".flip").click(function(){
+  $("#picture").attr("src",url2);
+    $(".erweima").slideToggle("slow");
+  });
+});
+</script>
+
+<style type="text/css">
+div.erweima,p.flip
+{
+margin:0px;
+padding:5px;
+text-align:center;
+background:#e5eecc;
+border:solid 1px #c3c3c3;
+}
+div.erweima
+{
+height:180px;
+display:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="erweima">
+<img id="picture" alt="二维码"><br>二维码
+</div>
+
+<p class="flip">微信二维码！</p>
+
+</body>
+</html>

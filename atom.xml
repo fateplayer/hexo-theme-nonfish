@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>命运游侠</title>
+  
+  <subtitle>blog beat</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://fateplayer.com/"/>
+  <updated>2018-12-04T07:02:02.193Z</updated>
+  <id>http://fateplayer.com/</id>
+  
+  <author>
+    <name>Fanyun</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo and npm command</title>
+    <link href="http://fateplayer.com/2018/10/07/hexo-and-npm-command/"/>
+    <id>http://fateplayer.com/2018/10/07/hexo-and-npm-command/</id>
+    <published>2018-10-07T07:28:48.000Z</published>
+    <updated>2018-12-04T07:02:02.193Z</updated>
+    
+    <content type="html"><![CDATA[<p>更新npm ：<br><code>npm install -g npm</code></p><p>nvm ：node版本管理工具</p><p>模块更新 npm-check</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;更新npm ：&lt;br&gt;&lt;code&gt;npm install -g npm&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;nvm ：node版本管理工具&lt;/p&gt;
+&lt;p&gt;模块更新 npm-check&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Code" scheme="http://fateplayer.com/categories/Code/"/>
+    
+    
+      <category term="command" scheme="http://fateplayer.com/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>centos7 and centos5 crontab</title>
+    <link href="http://fateplayer.com/2018/04/18/centos7-and-centos5-crontab/"/>
+    <id>http://fateplayer.com/2018/04/18/centos7-and-centos5-crontab/</id>
+    <published>2018-04-18T02:29:12.000Z</published>
+    <updated>2018-04-18T03:19:50.626Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="CentOS7"><a href="#CentOS7" class="headerlink" title="CentOS7"></a>CentOS7</h2><p>开启<code>/bin/systemctl start crond.service</code><br>停止<code>/bin/systemctl stop crond.service</code><br>重启<code>/bin/systemctl restart crond.service</code><br>重载<code>/bin/systemctl reload crond.service</code><br>状态<code>/bin/systemctl status crond.service</code><br>日志<code>cat /var/log/cron</code></p><h2 id="CentOS5"><a href="#CentOS5" class="headerlink" title="CentOS5"></a>CentOS5</h2><p>开启<code>/sbin/service crond start</code><br>停止<code>/sbin/service crond stop</code><br>重启<code>/sbin/service crond restart</code><br>重载<code>/sbin/service crond reload</code><br>状态<code>/sbin/service crond status</code><br>日志<code>cat /var/log/crond</code>    不确定</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;CentOS7&quot;&gt;&lt;a href=&quot;#CentOS7&quot; class=&quot;headerlink&quot; title=&quot;CentOS7&quot;&gt;&lt;/a&gt;CentOS7&lt;/h2&gt;&lt;p&gt;开启&lt;code&gt;/bin/systemctl start crond.service&lt;/code&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="Service" scheme="http://fateplayer.com/categories/Service/"/>
+    
+    
+      <category term="centos" scheme="http://fateplayer.com/tags/centos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>霍金，逝世</title>
+    <link href="http://fateplayer.com/2018/03/14/Stephen-William-Hawking-is-death/"/>
+    <id>http://fateplayer.com/2018/03/14/Stephen-William-Hawking-is-death/</id>
+    <published>2018-03-14T03:45:01.000Z</published>
+    <updated>2018-03-15T08:09:35.912Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天是斯蒂芬·威廉·霍金去世的日子，英国当地时间2018年3月14日凌晨3时46分<br>今天是爱德华·爱因斯坦的生日<br>斯蒂芬·威廉·霍金1942年1月8日出生，伽利略的300年忌日。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天是斯蒂芬·威廉·霍金去世的日子，英国当地时间2018年3月14日凌晨3时46分&lt;br&gt;今天是爱德华·爱因斯坦的生日&lt;br&gt;斯蒂芬·威廉·霍金1942年1月8日出生，伽利略的300年忌日。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="test" scheme="http://fateplayer.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm常用命令</title>
+    <link href="http://fateplayer.com/2018/02/16/npm-command/"/>
+    <id>http://fateplayer.com/2018/02/16/npm-command/</id>
+    <published>2018-02-16T02:16:39.000Z</published>
+    <updated>2018-04-17T02:59:28.024Z</updated>
+    
+    <content type="html"><![CDATA[<p>模块检查更新 <code>npm outdated</code><br>模块更新 <code>npm update</code><br>模块列表 <code>npm list</code></p><h3 id="安装模块"><a href="#安装模块" class="headerlink" title="安装模块"></a>安装模块</h3><p><code>npm install &lt;Module Name&gt;</code>            //本地安装<br><code>npm install &lt;Module Name&gt; -g</code>        //全局安装<br>常用命令 <code>npm install &lt;Module Name&gt; --save-dve</code>  自动修改package.json的devDependencies<br>         <code>npm install &lt;Module Name&gt; --save</code>  自动修改package.json的dependencies</p><h3 id="卸载模块"><a href="#卸载模块" class="headerlink" title="卸载模块"></a>卸载模块</h3><p><code>npm uninstall &lt;Module Name&gt;</code><br><code>npm uninstall &lt;Module Name&gt; -g</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;模块检查更新 &lt;code&gt;npm outdated&lt;/code&gt;&lt;br&gt;模块更新 &lt;code&gt;npm update&lt;/code&gt;&lt;br&gt;模块列表 &lt;code&gt;npm list&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;安装模块&quot;&gt;&lt;a href=&quot;#安装模块&quot; class=&quot;h
+      
+    
+    </summary>
+    
+      <category term="Code" scheme="http://fateplayer.com/categories/Code/"/>
+    
+    
+      <category term="npm" scheme="http://fateplayer.com/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信小程序：企业比个人多什么？（暂时了解）</title>
+    <link href="http://fateplayer.com/2018/01/10/wxapp-Enterprises-and-individuals/"/>
+    <id>http://fateplayer.com/2018/01/10/wxapp-Enterprises-and-individuals/</id>
+    <published>2018-01-10T03:49:45.000Z</published>
+    <updated>2018-03-14T03:02:20.314Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>微信支付</li><li>获取微信用户绑定的手机号码（需要微信认证）</li><li>附近的小程序</li><li>扫普通链接二维码打开小程序</li><li>实时通讯</li><li>卡券功能</li><li>实时播放音视频流</li><li>实时录制音视频流</li><li>小程序插件</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;微信支付&lt;/li&gt;
+&lt;li&gt;获取微信用户绑定的手机号码（需要微信认证）&lt;/li&gt;
+&lt;li&gt;附近的小程序&lt;/li&gt;
+&lt;li&gt;扫普通链接二维码打开小程序&lt;/li&gt;
+&lt;li&gt;实时通讯&lt;/li&gt;
+&lt;li&gt;卡券功能&lt;/li&gt;
+&lt;li&gt;实时播放音视频流&lt;/li&gt;
+&lt;li&gt;实
+      
+    
+    </summary>
+    
+    
+      <category term="wxapp" scheme="http://fateplayer.com/tags/wxapp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>beyond compare下载地址</title>
+    <link href="http://fateplayer.com/2018/01/04/beyond_compare_download_link/"/>
+    <id>http://fateplayer.com/2018/01/04/beyond_compare_download_link/</id>
+    <published>2018-01-03T22:44:31.000Z</published>
+    <updated>2018-01-04T06:25:47.204Z</updated>
+    
+    <content type="html"><![CDATA[<p>英文官方网站:<a href="http://www.scootersoftware.com" target="_blank" rel="noopener">http://www.scootersoftware.com</a><br>中文代理商官方网站:<a href="http://www.beyondcompare.cc" target="_blank" rel="noopener">http://www.beyondcompare.cc</a></p><p>scootersoftware英文官网只显示4种语言（英文，德文，法文，日文），由链接推理出简体中文和繁体中文<br>以目前最新版本为例<br><a href="http://www.scootersoftware.com/BCompare-zh-4.2.3.22587.exe" target="_blank" rel="noopener">http://www.scootersoftware.com/BCompare-zh-4.2.3.22587.exe</a> （简体）<br><a href="http://www.scootersoftware.com/BCompare-cn-4.2.3.22587.exe" target="_blank" rel="noopener">http://www.scootersoftware.com/BCompare-cn-4.2.3.22587.exe</a> （繁体）</p><hr><p>另有破解补丁由TEAM ZWT制作，暂不提供，自行Google，win10会报毒</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;英文官方网站:&lt;a href=&quot;http://www.scootersoftware.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.scootersoftware.com&lt;/a&gt;&lt;br&gt;中文代理商官方网站:&lt;a href=&quot;h
+      
+    
+    </summary>
+    
+      <category term="Software" scheme="http://fateplayer.com/categories/Software/"/>
+    
+    
+      <category term="beyond compare" scheme="http://fateplayer.com/tags/beyond-compare/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shell输出5位字母和数字的所有组合</title>
+    <link href="http://fateplayer.com/2018/01/03/shell_generate_five_bits_of_all_of_them/"/>
+    <id>http://fateplayer.com/2018/01/03/shell_generate_five_bits_of_all_of_them/</id>
+    <published>2018-01-03T15:45:05.000Z</published>
+    <updated>2018-01-03T15:49:20.795Z</updated>
+    
+    <content type="html"><![CDATA[<p>代码如下：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line">arr_w=(<span class="number">1</span> <span class="number">2</span> <span class="number">3</span> <span class="number">4</span> <span class="number">5</span> <span class="number">6</span> <span class="number">7</span> <span class="number">8</span> <span class="number">9</span> <span class="number">0</span> a b c d e f g h i j k l m n o p q r s t u v w s y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z);</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> a <span class="keyword">in</span> $&#123;arr_w[@]&#125;</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">a1=$a</span><br><span class="line"><span class="keyword">for</span> b <span class="keyword">in</span> $&#123;arr_w[@]&#125;</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">b1=$b</span><br><span class="line"><span class="keyword">for</span> c <span class="keyword">in</span> $&#123;arr_w[@]&#125;</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">c1=$c</span><br><span class="line"><span class="keyword">for</span> d <span class="keyword">in</span> $&#123;arr_w[@]&#125;</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">d1=$d</span><br><span class="line"><span class="keyword">for</span> e <span class="keyword">in</span> $&#123;arr_w[@]&#125;</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">e1=$e</span><br><span class="line">hh=$&#123;a1&#125;$&#123;b1&#125;$&#123;c1&#125;$&#123;d1&#125;$&#123;e1&#125;;</span><br><span class="line">echo $&#123;hh&#125;;</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">done</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;代码如下：&lt;br&gt;&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;
+      
+    
+    </summary>
+    
+      <category term="Code" scheme="http://fateplayer.com/categories/Code/"/>
+    
+    
+      <category term="shell" scheme="http://fateplayer.com/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>两字谐音网名-收集</title>
+    <link href="http://fateplayer.com/2017/10/30/Homophonic-name/"/>
+    <id>http://fateplayer.com/2017/10/30/Homophonic-name/</id>
+    <published>2017-10-30T07:39:41.000Z</published>
+    <updated>2017-10-30T07:40:38.399Z</updated>
+    
+    <content type="html"><![CDATA[<p>饭晕—-犯晕<br>渎叶—-毒液<br>麋鹿—-迷路<br>胸手—-凶手<br>拥友—-拥有<br>吓天—-夏天<br>带盐—-代言</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;饭晕—-犯晕&lt;br&gt;渎叶—-毒液&lt;br&gt;麋鹿—-迷路&lt;br&gt;胸手—-凶手&lt;br&gt;拥友—-拥有&lt;br&gt;吓天—-夏天&lt;br&gt;带盐—-代言&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Nonsense" scheme="http://fateplayer.com/categories/Nonsense/"/>
+    
+    
+      <category term="screen_name" scheme="http://fateplayer.com/tags/screen-name/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开启wordprress rest api匿名评论</title>
+    <link href="http://fateplayer.com/2017/08/07/wordprress-rest-api-common-open/"/>
+    <id>http://fateplayer.com/2017/08/07/wordprress-rest-api-common-open/</id>
+    <published>2017-08-07T13:44:31.000Z</published>
+    <updated>2017-10-30T07:31:09.224Z</updated>
+    
+    <content type="html"><![CDATA[<p>具体的方法是在wordpress的主题的functions.php文件加入以下代码：<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">filter_rest_allow_anonymous_comments</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">&#125;</span><br><span class="line">add_filter(‘rest_allow_anonymous_comments’,’filter_rest_allow_anonymous_comments’);</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;具体的方法是在wordpress的主题的functions.php文件加入以下代码：&lt;br&gt;&lt;figure class=&quot;highlight php&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span
+      
+    
+    </summary>
+    
+      <category term="Code" scheme="http://fateplayer.com/categories/Code/"/>
+    
+    
+      <category term="wordpress" scheme="http://fateplayer.com/tags/wordpress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>EDU后缀邮箱的用途</title>
+    <link href="http://fateplayer.com/2017/05/19/Use-Of-Email_EDU/"/>
+    <id>http://fateplayer.com/2017/05/19/Use-Of-Email_EDU/</id>
+    <published>2017-05-19T09:16:01.000Z</published>
+    <updated>2017-05-19T10:06:50.445Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-OFFECE-365-教育版"><a href="#1-OFFECE-365-教育版" class="headerlink" title="1.OFFECE 365 教育版"></a>1.OFFECE 365 教育版</h2><h2 id="2-JetBrains-Product-Pack-for-Students"><a href="#2-JetBrains-Product-Pack-for-Students" class="headerlink" title="2.JetBrains Product Pack for Students"></a>2.JetBrains Product Pack for Students</h2><p>申请地址: <a href="https://www.jetbrains.com/student/" target="_blank" rel="noopener">https://www.jetbrains.com/student/</a></p><h2 id="3-Github-学生开发包-需要审核，非秒到"><a href="#3-Github-学生开发包-需要审核，非秒到" class="headerlink" title="3.Github 学生开发包(需要审核，非秒到)"></a>3.Github 学生开发包(需要审核，非秒到)</h2><p>申请地址: <a href="https://education.github.com/pack" target="_blank" rel="noopener">https://education.github.com/pack</a></p><h2 id="4-Autodesk-Education"><a href="#4-Autodesk-Education" class="headerlink" title="4.Autodesk Education"></a>4.Autodesk Education</h2><p>申请地址: <a href="https://www.autodesk.com/education/free-software/featured" target="_blank" rel="noopener">https://www.autodesk.com/education/free-software/featured</a></p><h2 id="5-google-app-for-education"><a href="#5-google-app-for-education" class="headerlink" title="5.google app for education"></a>5.google app for education</h2><h2 id="6-CamScanner-APP扫描全能王完整版功能"><a href="#6-CamScanner-APP扫描全能王完整版功能" class="headerlink" title="6.CamScanner APP扫描全能王完整版功能"></a>6.CamScanner APP扫描全能王完整版功能</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;1-OFFECE-365-教育版&quot;&gt;&lt;a href=&quot;#1-OFFECE-365-教育版&quot; class=&quot;headerlink&quot; title=&quot;1.OFFECE 365 教育版&quot;&gt;&lt;/a&gt;1.OFFECE 365 教育版&lt;/h2&gt;&lt;h2 id=&quot;2-JetBrai
+      
+    
+    </summary>
+    
+      <category term="Nonsense" scheme="http://fateplayer.com/categories/Nonsense/"/>
+    
+    
+      <category term="EDU" scheme="http://fateplayer.com/tags/EDU/"/>
+    
+      <category term="Email" scheme="http://fateplayer.com/tags/Email/"/>
+    
+      <category term="邮箱" scheme="http://fateplayer.com/tags/%E9%82%AE%E7%AE%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信小程序获取星期显示到页面</title>
+    <link href="http://fateplayer.com/2017/05/01/wxapp-getUTCDay/"/>
+    <id>http://fateplayer.com/2017/05/01/wxapp-getUTCDay/</id>
+    <published>2017-04-30T22:44:31.000Z</published>
+    <updated>2017-05-01T04:04:54.820Z</updated>
+    
+    <content type="html"><![CDATA[<p>wxml代码<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">text</span>&gt;</span>&#123;&#123;UTCDay&#125;&#125;<span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br></pre></td></tr></table></figure></p><p>js代码<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">onLoad: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> UTCDay = <span class="keyword">new</span> <span class="built_in">Date</span>().getUTCDay()</span><br><span class="line">  <span class="keyword">switch</span> (UTCDay) &#123;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">      <span class="keyword">this</span>.setData(&#123;</span><br><span class="line">        UTCDay: <span class="string">"星期一"</span></span><br><span class="line">      &#125;)</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">2</span>:</span><br><span class="line">      <span class="keyword">this</span>.setData(&#123;</span><br><span class="line">        UTCDay: <span class="string">"星期二"</span></span><br><span class="line">      &#125;)</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">3</span>:</span><br><span class="line">      <span class="keyword">this</span>.setData(&#123;</span><br><span class="line">        UTCDay: <span class="string">"星期三"</span></span><br><span class="line">      &#125;)</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">4</span>:</span><br><span class="line">      <span class="keyword">this</span>.setData(&#123;</span><br><span class="line">        UTCDay: <span class="string">"星期四"</span></span><br><span class="line">      &#125;)</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">5</span>:</span><br><span class="line">      <span class="keyword">this</span>.setData(&#123;</span><br><span class="line">        UTCDay: <span class="string">"星期五"</span></span><br><span class="line">      &#125;)</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">6</span>:</span><br><span class="line">      <span class="keyword">this</span>.setData(&#123;</span><br><span class="line">        UTCDay: <span class="string">"星期六"</span></span><br><span class="line">      &#125;)</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">7</span>:</span><br><span class="line">      <span class="keyword">this</span>.setData(&#123;</span><br><span class="line">        UTCDay: <span class="string">"星期日"</span></span><br><span class="line">      &#125;)</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>ps:获取其他时间方法一样</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;wxml代码&lt;br&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;p
+      
+    
+    </summary>
+    
+      <category term="Code" scheme="http://fateplayer.com/categories/Code/"/>
+    
+    
+      <category term="微信小程序" scheme="http://fateplayer.com/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>go环境和php环境共存吗？</title>
+    <link href="http://fateplayer.com/2017/03/28/go-vs-php/"/>
+    <id>http://fateplayer.com/2017/03/28/go-vs-php/</id>
+    <published>2017-03-28T06:48:50.000Z</published>
+    <updated>2017-05-24T14:12:50.775Z</updated>
+    
+    <content type="html"><![CDATA[<p>貌似是不能共存的</p><p>ps：lnmp1.4+ssl与l2tp、shadowsocks貌似也不能共存</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;貌似是不能共存的&lt;/p&gt;
+&lt;p&gt;ps：lnmp1.4+ssl与l2tp、shadowsocks貌似也不能共存&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Service" scheme="http://fateplayer.com/categories/Service/"/>
+    
+    
+      <category term="php" scheme="http://fateplayer.com/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WOW宏编程之入门篇</title>
+    <link href="http://fateplayer.com/2016/12/01/WOW-macros/"/>
+    <id>http://fateplayer.com/2016/12/01/WOW-macros/</id>
+    <published>2016-12-01T13:44:31.000Z</published>
+    <updated>2017-10-30T07:31:04.271Z</updated>
+    
+    <content type="html"><![CDATA[<p>#为宏添加技能说明，当不输入技能名/物品名时,宏的图标与信息将显示为宏命令中第一个施放的技能或者使用的物品<br><code>#showtooltips 技能名/物品名</code></p><p>#打断施法<br><code>/stopcasting</code></p><p>@player 对玩家释放<br>@mouseover 对鼠标悬停目标释放</p><h2 id="常见判定条件"><a href="#常见判定条件" class="headerlink" title="常见判定条件:"></a>常见判定条件:</h2><p>[dead]/[nodead]是否死亡<br>[exists]/[noexists] 是否存在<br>[harm]/[noharm] 是否敌对<br>[help]/[nohelp] 是否友善<br>[flyable]/[noflyable] 所处区域是否能飞行<br>[party]和[raid]/[noparty]和[noraid] 是否处于小队或团队中<br>[pet]/[nopet] 是否携带召唤生物<br>[mounted]/[nomounted] 是否在骑乘状态<br>[spec:1]和[spec:2] 是否在天赋1/天赋2下<br>[swimming]/[noswimming] 是否在游泳<br>[combat]/[nocombat] 是否在战斗中<br>[channeling]/[nochanneling] 是否在引导技能</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#为宏添加技能说明，当不输入技能名/物品名时,宏的图标与信息将显示为宏命令中第一个施放的技能或者使用的物品&lt;br&gt;&lt;code&gt;#showtooltips 技能名/物品名&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;#打断施法&lt;br&gt;&lt;code&gt;/stopcasting&lt;/code&gt;&lt;/p&gt;
+      
+    
+    </summary>
+    
+      <category term="Code" scheme="http://fateplayer.com/categories/Code/"/>
+    
+    
+      <category term="wow" scheme="http://fateplayer.com/tags/wow/"/>
+    
+      <category term="macros" scheme="http://fateplayer.com/tags/macros/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>centos 常用命令</title>
+    <link href="http://fateplayer.com/2016/07/21/centos-use-command/"/>
+    <id>http://fateplayer.com/2016/07/21/centos-use-command/</id>
+    <published>2016-07-21T15:30:21.000Z</published>
+    <updated>2018-04-18T02:30:20.213Z</updated>
+    
+    <content type="html"><![CDATA[<p>yum -y update   升级软件和系统<br>lsb_release -a  查看版本</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;yum -y update   升级软件和系统&lt;br&gt;lsb_release -a  查看版本&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Service" scheme="http://fateplayer.com/categories/Service/"/>
+    
+    
+      <category term="centos" scheme="http://fateplayer.com/tags/centos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LNMP 搭建 wordpress 的简单配置</title>
+    <link href="http://fateplayer.com/2016/07/17/LNMP-build-wordpress-install/"/>
+    <id>http://fateplayer.com/2016/07/17/LNMP-build-wordpress-install/</id>
+    <published>2016-07-17T02:02:58.000Z</published>
+    <updated>2017-05-24T14:10:28.478Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里用的是<a href="lnmp.org">lnmp一键包</a></p><h3 id="解决不能上传本地主题"><a href="#解决不能上传本地主题" class="headerlink" title="解决不能上传本地主题"></a>解决不能上传本地主题</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">chattr -i /home/wwwroot/fateplayer.com/.user.ini</span><br><span class="line">chown -R www /home/wwwroot/fateplayer.com</span><br><span class="line">chattr +i /home/wwwroot/fateplayer.com/.user.ini</span><br></pre></td></tr></table></figure><h3 id="解决主题只显示一个"><a href="#解决主题只显示一个" class="headerlink" title="解决主题只显示一个"></a>解决主题只显示一个</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vi /usr/local/php/etc/php.ini</span><br><span class="line">搜索  scandir 并删除这个字段</span><br><span class="line">service php-fpm reload</span><br></pre></td></tr></table></figure><h3 id="解决不能上传文件的问题"><a href="#解决不能上传文件的问题" class="headerlink" title="解决不能上传文件的问题"></a>解决不能上传文件的问题</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chown -R www:www /home/wwwroot/www.fateplayer.com/</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这里用的是&lt;a href=&quot;lnmp.org&quot;&gt;lnmp一键包&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;解决不能上传本地主题&quot;&gt;&lt;a href=&quot;#解决不能上传本地主题&quot; class=&quot;headerlink&quot; title=&quot;解决不能上传本地主题&quot;&gt;&lt;/a&gt;解决不能上传本地主题&lt;/h
+      
+    
+    </summary>
+    
+      <category term="Service" scheme="http://fateplayer.com/categories/Service/"/>
+    
+    
+      <category term="lnmp" scheme="http://fateplayer.com/tags/lnmp/"/>
+    
+      <category term="wordpress" scheme="http://fateplayer.com/tags/wordpress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>chrome os安装再USB设备上</title>
+    <link href="http://fateplayer.com/2016/07/03/chrome-os-USB-driver/"/>
+    <id>http://fateplayer.com/2016/07/03/chrome-os-USB-driver/</id>
+    <published>2016-07-03T13:44:37.000Z</published>
+    <updated>2017-10-30T07:32:29.537Z</updated>
+    
+    <content type="html"><![CDATA[<p>下面是一些相关软件，地址先放出来<br>(<a href="https://yunpan.cn/cBjqnxiV46FwX" target="_blank" rel="noopener">https://yunpan.cn/cBjqnxiV46FwX</a>) 访问密码<code>1c1f</code><br>包括 <a href="http://www.7-zip.org/" target="_blank" rel="noopener">7z</a>、<a href="https://sourceforge.net/projects/win32diskimager/" target="_blank" rel="noopener">Win32DiskImager</a>、<a href="http://arnoldthebat.co.uk/" target="_blank" rel="noopener">Camd64OS</a></p><hr><p>都下载后用7z把Camd64OS解压，解压后应该是img文件，然后用Win32DiskImager把文件write到SD卡或者是U盘<code>不要小于8G</code><br>接着重启电脑选择你的U盘或者SD卡启动电脑，不翻墙只能用访客模式<br>end<br>PS：surface系列好像用不了，但是可以用<a href="http://cn.jide.com/" target="_blank" rel="noopener">Remix OS</a>安装安卓系统到sd卡<br><a href="http://www.diskgenius.cn/" target="_blank" rel="noopener">DiskGenius数据恢复及磁盘分区软件</a></p><hr><p>下面是一些与chrome os相关的软件，与本文无关<br>chromebook recovery utility—-把bin文件的系统写到磁盘<br>chrromium.arnoldthebat.co.uk—-详细版本</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;下面是一些相关软件，地址先放出来&lt;br&gt;(&lt;a href=&quot;https://yunpan.cn/cBjqnxiV46FwX&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://yunpan.cn/cBjqnxiV46FwX&lt;/a&gt;) 访问密码&lt;c
+      
+    
+    </summary>
+    
+      <category term="Software" scheme="http://fateplayer.com/categories/Software/"/>
+    
+    
+      <category term="chromeos" scheme="http://fateplayer.com/tags/chromeos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shell中if条件</title>
+    <link href="http://fateplayer.com/2016/06/24/shell-if-into/"/>
+    <id>http://fateplayer.com/2016/06/24/shell-if-into/</id>
+    <published>2016-06-24T13:01:37.000Z</published>
+    <updated>2017-10-30T07:31:33.334Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p>文件表达式</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> [ -f  file ]    如果文件存在</span><br><span class="line"><span class="keyword">if</span> [ -d ...   ]    如果目录存在</span><br><span class="line"><span class="keyword">if</span> [ -s file  ]    如果文件存在且非空</span><br><span class="line"><span class="keyword">if</span> [ -r file  ]    如果文件存在且可读</span><br><span class="line"><span class="keyword">if</span> [ -w file  ]    如果文件存在且可写</span><br><span class="line"><span class="keyword">if</span> [ -x file  ]    如果文件存在且可执行</span><br></pre></td></tr></table></figure></li><li><p>整数变量表达式</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> [ int1 -eq int2 ]       如果int1等于int2   </span><br><span class="line"><span class="keyword">if</span> [ int1 -ne int2 ]       如果不等于    </span><br><span class="line"><span class="keyword">if</span> [ int1 -ge int2 ]       如果&gt;=</span><br><span class="line"><span class="keyword">if</span> [ int1 -gt int2 ]       如果&gt;</span><br><span class="line"><span class="keyword">if</span> [ int1 -le int2 ]       如果&lt;=</span><br><span class="line"><span class="keyword">if</span> [ int1 -lt int2 ]       如果&lt;</span><br></pre></td></tr></table></figure></li><li><p>字符串变量表达式</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">If  [ <span class="variable">$a</span> = <span class="variable">$b</span> ]                 如果string1等于string2  字符串允许使用赋值号做等号</span><br><span class="line"><span class="keyword">if</span>  [ <span class="variable">$string1</span> !=  <span class="variable">$string2</span> ]   如果string1不等于string2       </span><br><span class="line"><span class="keyword">if</span>  [ -n <span class="variable">$string</span>  ]             如果string 非空(非0），返回0(<span class="literal">true</span>)  </span><br><span class="line"><span class="keyword">if</span>  [ -z <span class="variable">$string</span>  ]             如果string 为空</span><br><span class="line"><span class="keyword">if</span>  [ <span class="variable">$sting</span> ]                  如果string 非空，返回0 (和-n类似)</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;文件表达式&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;
+      
+    
+    </summary>
+    
+      <category term="Code" scheme="http://fateplayer.com/categories/Code/"/>
+    
+    
+      <category term="shell" scheme="http://fateplayer.com/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jquery.knob旋钮插件属性整理</title>
+    <link href="http://fateplayer.com/2016/06/08/jquery-knob/"/>
+    <id>http://fateplayer.com/2016/06/08/jquery-knob/</id>
+    <published>2016-06-08T13:32:09.000Z</published>
+    <updated>2017-10-30T07:31:59.084Z</updated>
+    
+    <content type="html"><![CDATA[<p>以下内容为自己理解，只做参考<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">data-width="30"//宽度</span><br><span class="line">data-height="100"//高度</span><br><span class="line">data-skin="tron" //最外边的边</span><br><span class="line">value="35" //值</span><br><span class="line">data-displayInput=false //不让输入</span><br><span class="line">data-thickness=".1"  //圆圈的宽度1为实心圆</span><br><span class="line">data-bgColor="#333"  //背景色</span><br><span class="line">data-fgColor="#ffec03" //前景色</span><br><span class="line">data-min="0" //最小值</span><br><span class="line">data-max="60" //最大值</span><br><span class="line">readonly//只读</span><br><span class="line">data-ticks="8"//竖线瓣</span><br><span class="line">data-cursor=true//变成一小块显示前景色</span><br><span class="line">data-angleOffset="90"//90°后的位置开始</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;以下内容为自己理解，只做参考&lt;br&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;
+      
+    
+    </summary>
+    
+      <category term="Code" scheme="http://fateplayer.com/categories/Code/"/>
+    
+    
+      <category term="jquery" scheme="http://fateplayer.com/tags/jquery/"/>
+    
+      <category term="knob" scheme="http://fateplayer.com/tags/knob/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>视力恢复</title>
+    <link href="http://fateplayer.com/2016/05/30/Vision-restoration/"/>
+    <id>http://fateplayer.com/2016/05/30/Vision-restoration/</id>
+    <published>2016-05-30T15:15:58.000Z</published>
+    <updated>2017-10-30T07:30:48.099Z</updated>
+    
+    <content type="html"><![CDATA[<p>恢复视力的方法(飞行员都用） 为了你的眼睛请收藏吧<br>近视到底能不能治疗呢？不做激光手术的话，我们能做些什么吗？<br><a id="more"></a></p><ul><li>远方凝视：<br>找一处10米以外的草地或绿树：绿色由于波长较短，成像在视网膜之前，促使眼部调节放松、眼睫状肌松弛，减轻眼疲劳。不要眯眼，也不要总眨眼，排除杂念、集中精力、全神贯注的凝视25秒，辨认草叶或树叶的轮廓。接着把左手掌略高于眼睛前方30厘米处，逐一从头到尾看清掌纹，大约5秒。看完掌纹后再凝视远方的草地或树叶25秒，然后再看掌纹。10分钟时间反复20次，一天做三回，视力下降厉害的要增加训练次数。</li><li>晶体操：<br>转眼：双手托腮，让眼球按上、下、左、右的顺序转动10次，接着再逆时针、顺时针各转动10次。<br>找一幅3米外的景物（如：墙上的字画等），同时举起自己的左手距眼睛略高处伸直（约30厘米），看清手掌手纹后，再看清远物，尽量快速的在二者间移动目光，往返20次。</li><li>推拿操：<br>采取坐式或仰卧式均可，将两眼自然闭合，然后依次按摩眼睛周围的穴位。要求取穴准确、手法轻缓，以局部有酸胀感为度。<br>揉天应穴：用双手大拇指轻轻揉按天应穴（眉头下面、眼眶外上角处。 ）<br>挤按睛明穴：用一只手的大拇指轻轻揉按睛明穴（鼻根部紧挨两眼内眦处）先向下按，然后又向上挤<br>揉四白穴：用食指揉按面颊中央部的四白穴（眼眶下缘正中直下一横指）。更多养生内容关注中医养生堂微信号：zyyst99<br>按太阳穴、轮刮眼眶：用拇指按压太阳穴（眉梢和外眼角的中间向后一横指处），然后用弯屈的食指第二节内侧面轻刮眼眶一圈，由内上-&gt;外上-&gt; 外下-&gt;内下，使眼眶周围的攒竹鱼腰、丝竹空、瞳子寥、球后、承泣等穴位受到按摩。对于假性近视、或预防近视眼度数的加深有好处。<h2 id="保护视力的4种锻炼方法"><a href="#保护视力的4种锻炼方法" class="headerlink" title="保护视力的4种锻炼方法"></a>保护视力的4种锻炼方法</h2></li><li>转眼法<br>选一安静场所，或坐或站，全身放松，清除杂念，二目睁开，头颈不动，独转眼球。先将眼睛凝视正下方，缓慢转至左方，再转至凝视正上方，至右方，最后回到凝视正下方，这样，先顺时针转9圈。再让眼睛由凝视下方，转至右方，至上方，至左方，再回到下方，这样，再逆时针方向转6圈。总共做4次。每次转动，眼球都应尽可能地达到极限。这种转眼法可以锻炼眼肌，改善营养，使眼灵活自如，炯炯有神。</li><li>眼呼吸凝神法<br>选空气清新处，或坐或立，全身放松，二目平视前方，徐徐将气吸足，眼睛随之睁大，稍停片刻，然后将气徐徐呼出，眼睛也随之慢慢微闭，连续做9次。</li><li>熨眼法<br>此法最好坐着做，全身放松，闭上双眼，然后快速相互摩擦两掌，使之生热，趁热用双手捂住双眼，热散后两手猛然拿开，两眼也同时用劲一睁，如此3～5次，能促进眼睛血液循环，增进新陈代谢。</li><li>洗眼法<br>先将脸盆消毒后，倒入温水，调节好水温，把脸放入水里，在水中睁开眼睛，使眼球上下左右各移动9次，然后再顺时针、逆时针旋转9次。刚开始，水进入眼里，眼睛难受无比，但随着眼球的转动，眼睛会慢慢觉得非常舒服。在做这一动作时，若感到呼吸困难，不妨从脸盆中抬起脸来，在外深呼吸一下。此法，能洗去眼中的有害物质和灰尘，还对轻度白内障有效，并能改善散光、远视、近视的屈光不正程度。<br>此方的提供者是一名执业中的中医师兼教授，他的爸爸也是中医师。<br>有一天一起泡茶聊天时，聊到了这一道药方。<br>他的外甥曾经近视一千度，他就叫他煮用以上这道药方，每天喝。八个月后外甥的近视降到只有两百度。<br>所以这是一个经过亲身体验而成功过的药方。</li></ul><hr><p>药方：龙眼肉+龙眼核（即带核的龙眼）、枸杞。<br>煮法：以上叁味适量，加水煮成茶，龙眼核不必打碎.<br>服法：就当一般茶来喝就好，每天喝，至少连喝两个月。（没效可放弃不再喝，有效而还不满意，则应续喝。）<br>疗效：一切跟眼睛的水晶体不正常有关的眼睛问题，包括近视，远视，散光等等。<br>重点：一定要用龙眼核，只用龙眼肉，则效果折半。<br>建议：请饭后喝，效果最佳。（因为病在头部，而饭后喝会使药性发挥在头部较多，也就是此方的目的。） 逆时针、顺时针各转动10次。<br>祝大家拥有一对明亮健康的眼睛</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;恢复视力的方法(飞行员都用） 为了你的眼睛请收藏吧&lt;br&gt;近视到底能不能治疗呢？不做激光手术的话，我们能做些什么吗？&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Nonsense" scheme="http://fateplayer.com/categories/Nonsense/"/>
+    
+    
+      <category term="eyes" scheme="http://fateplayer.com/tags/eyes/"/>
+    
+      <category term="视力" scheme="http://fateplayer.com/tags/%E8%A7%86%E5%8A%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习Ajxa(一)</title>
+    <link href="http://fateplayer.com/2016/05/16/Ajxa-one/"/>
+    <id>http://fateplayer.com/2016/05/16/Ajxa-one/</id>
+    <published>2016-05-16T13:44:31.000Z</published>
+    <updated>2017-05-24T03:13:28.470Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Ajax工作流程"><a href="#Ajax工作流程" class="headerlink" title="Ajax工作流程"></a>Ajax工作流程</h2><ul><li>创建静态页面原型</li><li>创建XMLHttpRequest</li><li>建立到服务器的请求</li><li>使用XMLHttpRequest发送请求</li><li>设置回调函数</li><li>处理服务器响应</li><li>连接Web表单</li><li>编写服务器端组件</li></ul><h2 id="Ajax应用程序的优势"><a href="#Ajax应用程序的优势" class="headerlink" title="Ajax应用程序的优势"></a>Ajax应用程序的优势</h2><ul><li>通过异步模式，提升了用户体验</li><li>优化了浏览器和服务器之间的传输，减少不必要的数据往返，减少了带宽占用</li><li>Ajax引擎在客户端运行，承担了一部分本来由服务器承担的工作，从而减少了</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Ajax工作流程&quot;&gt;&lt;a href=&quot;#Ajax工作流程&quot; class=&quot;headerlink&quot; title=&quot;Ajax工作流程&quot;&gt;&lt;/a&gt;Ajax工作流程&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;创建静态页面原型&lt;/li&gt;
+&lt;li&gt;创建XMLHttpRequest&lt;/li&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Code" scheme="http://fateplayer.com/categories/Code/"/>
+    
+    
+      <category term="ajxa" scheme="http://fateplayer.com/tags/ajxa/"/>
+    
+  </entry>
+  
+</feed>

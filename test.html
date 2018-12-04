@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+<script src="js/jq.js"></script>
+<script type="text/javascript">
+function playButton(){
+var pic = document.getElementById("picture");
+var url1 = "https://chart.googleapis.com/chart?cht=qr&chs=150x150&choe=UTF-8&chld=L|4&chl="+window.location.href;
+pic.src = url1;
+}
+</script>
+</head>
+
+<body>
+<body>
+<div id="image">
+    <img id="picture" class="x" src="">
+    <input id="playButton" type="button" onclick="playButton()" value="Play">
+</div>
+</body>
+
+
+</body>
+
+</html>
