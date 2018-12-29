@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fateplayer.com/"/>
-  <updated>2018-12-04T07:21:57.440Z</updated>
+  <updated>2018-12-29T09:50:24.695Z</updated>
   <id>http://fateplayer.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>魔兽世界日历-小程序版</title>
+    <link href="http://fateplayer.com/2018/12/29/wow-calendar-wxapp/"/>
+    <id>http://fateplayer.com/2018/12/29/wow-calendar-wxapp/</id>
+    <published>2018-12-29T09:28:55.000Z</published>
+    <updated>2018-12-29T09:50:24.695Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/img/wow-calendar-wxapp.jpg" alt="魔兽世界日历-小程序版" title="魔兽世界日历-小程序版"><br>该程序从2017年9月5日开始设计，9月20日上线1.0，截至到今日运行大约百天，所以写篇文章简单介绍一下。</p><h3 id="该程序优点："><a href="#该程序优点：" class="headerlink" title="该程序优点："></a>该程序优点：</h3><ul><li>方便（有微信就ojbk，可添加到桌面图标，点击就来，不分平台）</li><li>实用（可提前知道魔兽世界活动，突袭，入侵）</li><li>访问快（服务器在阿里云）</li><li>可以看历史活动和未来一个月活动（一般情况最少能看未来一个月的活动）</li></ul><h3 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h3><ul><li>查看不了每日大使箱子（可以下载官网收菜APP<a href="https://www.battlenet.com.cn/support/zh/article/2798" target="_blank" rel="noopener">《魔兽世界》随身助手</a>）</li><li>没有黑海岸和激流堡战役</li><li>画面贼low</li></ul><p>如果你发现什么问题和有什么建议随时可以提出，最好去微博<a href="https://weibo.com/41310702" target="_blank" rel="noopener">私信我</a>。那样我会第一时间发现，发在公众号我会错过，公众号只能保留5天内的消息，我可能半个月才上一次的，在文章下留言也可。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;/img/wow-calendar-wxapp.jpg&quot; alt=&quot;魔兽世界日历-小程序版&quot; title=&quot;魔兽世界日历-小程序版&quot;&gt;&lt;br&gt;该程序从2017年9月5日开始设计，9月20日上线1.0，截至到今日运行大约百天，所以写篇文章简单介绍一下。&lt;/
+      
+    
+    </summary>
+    
+      <category term="Code" scheme="http://fateplayer.com/categories/Code/"/>
+    
+    
+      <category term="wxapp" scheme="http://fateplayer.com/tags/wxapp/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo and npm command</title>
@@ -514,34 +539,6 @@
       <category term="eyes" scheme="http://fateplayer.com/tags/eyes/"/>
     
       <category term="视力" scheme="http://fateplayer.com/tags/%E8%A7%86%E5%8A%9B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>学习Ajxa(一)</title>
-    <link href="http://fateplayer.com/2016/05/16/Ajxa-one/"/>
-    <id>http://fateplayer.com/2016/05/16/Ajxa-one/</id>
-    <published>2016-05-16T13:44:31.000Z</published>
-    <updated>2018-12-04T07:19:57.744Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Ajax工作流程"><a href="#Ajax工作流程" class="headerlink" title="Ajax工作流程"></a>Ajax工作流程</h2><ul><li>创建静态页面原型</li><li>创建XMLHttpRequest</li><li>建立到服务器的请求</li><li>使用XMLHttpRequest发送请求</li><li>设置回调函数</li><li>处理服务器响应</li><li>连接Web表单</li><li>编写服务器端组件</li></ul><h2 id="Ajax应用程序的优势"><a href="#Ajax应用程序的优势" class="headerlink" title="Ajax应用程序的优势"></a>Ajax应用程序的优势</h2><ul><li>通过异步模式，提升了用户体验</li><li>优化了浏览器和服务器之间的传输，减少不必要的数据往返，减少了带宽占用</li><li>Ajax引擎在客户端运行，承担了一部分本来由服务器承担的工作，从而减少了</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;Ajax工作流程&quot;&gt;&lt;a href=&quot;#Ajax工作流程&quot; class=&quot;headerlink&quot; title=&quot;Ajax工作流程&quot;&gt;&lt;/a&gt;Ajax工作流程&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;创建静态页面原型&lt;/li&gt;
-&lt;li&gt;创建XMLHttpRequest&lt;/li&gt;
-
-      
-    
-    </summary>
-    
-      <category term="Code" scheme="http://fateplayer.com/categories/Code/"/>
-    
-    
-      <category term="ajxa" scheme="http://fateplayer.com/tags/ajxa/"/>
     
   </entry>
   
